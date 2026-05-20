@@ -1,0 +1,69 @@
+.toggle {
+    cursor: pointer;
+    white-space: nowrap;
+  }
+#Ctable{
+    border-radius: 20px;
+  }
+
+#bnr{
+  background-color: #8c54bc;
+  padding: 5%;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  text-align: center;
+
+}
+#search-focus{
+  border-color: #8c54bc;
+  border-width: 1cm;
+}
+#form1{
+  font-family: 'ProductSans';
+  
+}
+#pagination {
+  float: right;
+  margin: 0 0 5px;
+}
+#pagination li a {
+  border: none;
+  font-size: 13px;
+  min-width: 30px;
+  min-height: 30px;
+  color: #ffffff;
+  margin: 0 2px;
+  line-height: 30px;
+  border-radius: 2px !important;
+  text-align: center;
+  padding: 0 6px;
+}
+#pagination li a:hover {
+  color: #ffffff;
+}	
+#pagination li.actived a, #pagination li.actived a.page-link {
+  background: #8c54bc;
+  
+}
+.page-link{
+  font-family: 'ProductSans';
+  background-color: #ffffff;
+}
+#pagination li.actived a:hover {        
+  background: #8c54bc;
+}
+#pagination li.disabled i {
+  color: #ffffff;
+}
+#pagination li i {
+  font-size: 16px;
+  padding-top: 6px
+}
+.hint-text {
+  float: left;
+  margin-top: 10px;
+  font-size: 13px;
+}
+b{
+  font-family: 'ProductSans';
+}

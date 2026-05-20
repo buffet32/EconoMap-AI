@@ -1,0 +1,20 @@
+{
+  "model": "XGBoost",
+  "test_r2": 0.9885,
+  "test_mae": 0.8113,
+  "test_rmse": 1.7988,
+  "cv_results": {
+    "RandomForest": {
+      "cv_neg_rmse_mean": -2.032135264084437,
+      "cv_neg_rmse_std": 0.8509395258273066
+    },
+    "XGBoost": {
+      "cv_neg_rmse_mean": -1.9039060428513843,
+      "cv_neg_rmse_std": 0.7895904361126762
+    },
+    "LightGBM": {
+      "cv_neg_rmse_mean": -2.373694083376564,
+      "cv_neg_rmse_std": 0.7165478115575573
+    }
+  }
+}

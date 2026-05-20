@@ -1,0 +1,30 @@
+Cluster Summary Report
+======================
+
+Mode: anomaly
+Scientific framing: discovered economic structures from unsupervised clustering.
+Validation only: attractivity_score used for interpretation, never as training target.
+
+Cluster -1 - Structured formal business zones
+  Zones: 6
+  Dominant sectors: Information Technology (11%), Commerce (11%), Finance (11%), Transport (7%)
+  City distribution: Casablanca (100%)
+  Attractivity score (validation): mean=60.54, std=9.65, range=[42.95, 74.72]
+
+Cluster 0 - Intermediate mixed economic zones
+  Zones: 127
+  Dominant sectors: Construction (15%), Commerce (14%), Other (12%), Information Technology (11%)
+  City distribution: Casablanca (90%), Settat (3%), Mohammedia (3%), El Jadida (2%)
+  Attractivity score (validation): mean=52.42, std=11.68, range=[20.86, 76.95]
+
+Cluster 1 - Emerging low-capital zones
+  Zones: 5
+  Dominant sectors: Construction (60%), Commerce (20%), Information Technology (20%)
+  City distribution: Casablanca (80%), Settat (20%)
+  Attractivity score (validation): mean=37.28, std=0.83, range=[36.67, 38.93]
+
+Cluster 2 - High-density capital hubs
+  Zones: 4
+  Dominant sectors: Commerce (9%), Construction (9%), Finance (9%), Healthcare (9%)
+  City distribution: Casablanca (100%)
+  Attractivity score (validation): mean=66.69, std=3.28, range=[62.66, 70.98]

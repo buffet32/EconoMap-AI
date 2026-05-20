@@ -1,0 +1,25 @@
+{
+  "model": "LightGBM",
+  "test_accuracy": 0.9434,
+  "test_f1_weighted": 0.9432,
+  "test_f1_macro": 0.9432,
+  "cv_results": {
+    "RandomForest": {
+      "cv_f1_macro_mean": 0.9401280573391448,
+      "cv_f1_macro_std": 0.035771826555779485
+    },
+    "XGBoost": {
+      "cv_f1_macro_mean": 0.9463485240992823,
+      "cv_f1_macro_std": 0.0309194172660246
+    },
+    "LightGBM": {
+      "cv_f1_macro_mean": 0.9526840565059311,
+      "cv_f1_macro_std": 0.02792249106561705
+    }
+  },
+  "classes": [
+    "Faible",
+    "Fort",
+    "Moyen"
+  ]
+}

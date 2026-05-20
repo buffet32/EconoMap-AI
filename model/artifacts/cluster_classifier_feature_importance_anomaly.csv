@@ -1,0 +1,20 @@
+feature,importance
+num__sector_diversity,420
+num__capital_mean,390
+num__sarl_count,255
+num__cell_lat,211
+num__entity_count_real,168
+num__capital_max,134
+num__n_sectors_present,108
+num__cell_lon,82
+num__sa_count,55
+num__formal_ratio,48
+num__active_rate,45
+num__density_log,26
+num__entity_count_total,0
+num__capital_median,0
+cat__city_Benslimane,0
+cat__city_Casablanca,0
+cat__city_El Jadida,0
+cat__city_Mohammedia,0
+cat__city_Settat,0

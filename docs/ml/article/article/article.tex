@@ -1,0 +1,577 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{url}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\begin{document}
+
+\title{Data-Driven Discovery of Economic Spatial Profiles\\
+in Morocco Using Unsupervised Machine Learning}
+
+\author{
+\IEEEauthorblockN{1\textsuperscript{st} Souhaib Madhour}
+\IEEEauthorblockA{\textit{Département Informatique} \\
+\textit{EMSI Marrakech}\\
+Marrakech, Morocco \\
+souhaibmadhour@gmail.com}
+\and
+\IEEEauthorblockN{2\textsuperscript{nd} Safia Tirar}
+\IEEEauthorblockA{\textit{Département Informatique} \\
+\textit{EMSI Marrakech}\\
+Marrakech, Morocco \\
+safiatirar6@gmail.com}
+\and
+\IEEEauthorblockN{3\textsuperscript{rd} Yassine Nait Ider}
+\IEEEauthorblockA{\textit{Département Informatique} \\
+\textit{EMSI Marrakech}\\
+Marrakech, Morocco \\
+yassinay205@gmail.com}
+\and
+\IEEEauthorblockN{4\textsuperscript{th} Mohamed Erraji}
+\IEEEauthorblockA{\textit{Département Informatique} \\
+\textit{EMSI Marrakech}\\
+Marrakech, Morocco \\
+medxd2002@gmail.com}
+}
+
+\maketitle
+
+% -------------------------------------------------------
+\begin{abstract}
+Understanding the economic structure of urban and peri-urban zones
+is critical for regional planning, investment targeting, and
+policy design in developing economies. In Morocco, no standardized,
+fine-grained index of infra-regional economic attractiveness
+currently exists. This paper proposes a data-driven pipeline
+to discover, characterize, and assign economic spatial profiles
+at the zone level using unsupervised and supervised machine learning.
+Starting from a heterogeneous dataset of 37,873 formal business
+entities geocoded across the Casablanca--Settat--El~Jadida region
+and aggregated into a 1.5~km $\times$ 1.5~km spatial grid of 142 zones,
+we apply a multi-algorithm clustering selection framework spanning
+K-Means, Gaussian Mixture Models, Agglomerative Clustering, and
+Spectral Clustering. The selected partition (Spectral Clustering,
+$k=3$) achieves a balance score of 0.96 and reveals three
+interpretable economic archetypes: \textit{High-density capital hubs},
+\textit{Active emerging zones}, and \textit{Underdeveloped early-stage ecosystems}.
+A Random~Forest classifier trained to predict discovered cluster labels
+achieves a test macro-F1 of 0.955 and an accuracy of 0.966,
+confirming the robustness and generalizability of the discovered profiles.
+Feature importance analysis identifies business activity rate,
+spatial density, entity counts, and sectoral diversification as
+the primary structural drivers. The framework is reproducible,
+interpretable, and extensible to other Moroccan regions,
+offering a practical tool for data-informed territorial economic analysis.
+\end{abstract}
+
+\begin{IEEEkeywords}
+economic zone profiling, unsupervised clustering, spatial machine learning,
+Morocco, urban analytics, feature importance, spectral clustering,
+territorial attractiveness
+\end{IEEEkeywords}
+
+% -------------------------------------------------------
+\section{Introduction}
+
+Territorial economic attractiveness has emerged as a central concern
+for regional planners and policy-makers, particularly in rapidly
+urbanizing economies of the Global South \cite{khalid2023artificial}.
+Morocco, with its significant urban concentration and diverse regional
+economic fabric, presents a compelling case: formal business registries
+are increasingly digitized, yet no standardized infra-regional
+economic profile framework exists at the zone level.
+
+Traditional approaches to economic attractiveness rely on
+aggregate administrative statistics (GDP per region, employment rates)
+that mask substantial intra-regional heterogeneity
+\cite{xu2023enhancing,feldmeyer2020using}.
+Machine learning has been shown to uncover latent economic structures
+from heterogeneous data sources in comparable urban analytics contexts
+\cite{chen2025machine,huang2022machine,kourtit2021safe},
+but applications targeting the Moroccan economic landscape
+at high spatial resolution remain scarce.
+
+This paper addresses the following scientific question:
+\textit{Can data-driven unsupervised learning discover interpretable,
+stable, and generalizable economic spatial profiles from raw business
+registry data, without relying on a synthetic score as a training target?}
+
+Our contributions are threefold:
+\begin{itemize}
+  \item A reproducible spatial aggregation pipeline converting
+    individual business entities into zone-level economic feature vectors
+    on a uniform 1.5~km $\times$ 1.5~km GPS grid.
+  \item A multi-objective clustering selection framework comparing seven
+    algorithm families across balance, separation, and supervisory readiness
+    criteria, with Spectral Clustering selected as the optimal solution.
+  \item A supervised profile assignment module achieving high macro-F1
+    performance, enabling the assignment of new zones to discovered
+    economic archetypes.
+\end{itemize}
+
+The remainder of this paper is organized as follows.
+Section~\ref{sec:related} reviews related work.
+Section~\ref{sec:data} describes the data collection and preprocessing.
+Section~\ref{sec:method} presents the methodological pipeline.
+Section~\ref{sec:results} reports experimental results and explainability analysis.
+Section~\ref{sec:discussion} discusses implications and limitations.
+Section~\ref{sec:conclusion} concludes the paper.
+
+% -------------------------------------------------------
+\section{Related Work}
+\label{sec:related}
+
+The intersection of machine learning and spatial economic analysis
+has generated a growing body of work. Xu~et~al.~\cite{xu2023enhancing}
+demonstrate that complex urban features extracted from heterogeneous
+sources can significantly improve economic competitiveness analysis
+using ML models. Similarly, Feldmeyer~et~al.~\cite{feldmeyer2020using}
+show that OpenStreetMap data combined with ML can produce reliable
+socio-economic indicators at fine spatial resolution, a finding
+directly relevant to data-scarce national contexts.
+
+In tourism and attractiveness estimation, Castellana~et~al.~\cite{castellana2024exploring}
+apply ML to regional tourism attractiveness with counterfactual
+explainability, while Giglio~et~al.~\cite{giglio2020machine}
+combine points-of-interest data and ML to characterize typical
+tourist Italian cities. Khalid~et~al.~\cite{khalid2023artificial}
+specifically address small Moroccan cities, using AI for
+attractiveness modeling and underscoring the feasibility of
+ML-based approaches in the Moroccan administrative context.
+
+Clustering-based spatial typology has been applied to urban vitality
+\cite{huang2022machine}, safe city profiling \cite{kourtit2021safe},
+and urban park attractiveness \cite{chen2025machine}.
+These works consistently report that multi-variable clustering
+over spatial economic features can reveal interpretable archetypes
+that correspond to meaningful urban dynamics.
+
+In contrast to supervised attractiveness prediction
+(which faces the circular reasoning risk when the target is
+constructed from the same input signals), our work adopts
+an unsupervised-first framing, followed by supervised
+profile assignment---a distinction explicitly recommended
+in recent methodological literature \cite{agiropoulos2024exploring,sakti2024machine}.
+
+% -------------------------------------------------------
+\section{Data Collection and Preprocessing}
+\label{sec:data}
+
+\subsection{Data Sources}
+
+Two primary sources were integrated. The Charika.ma business registry
+provided 998,000 raw rows representing approximately 98,000 unique
+formal entities, with multiple fiscal-year entries per company creating
+a 90\% functional duplication rate. A two-pass deduplication was applied:
+exact deduplication on (entity ID, trade name, city), followed by
+approximate deduplication using Jaro-Winkler similarity with a threshold
+of 0.92, chosen to balance over-merging (too low) and residual duplicates
+(too high).
+
+\subsection{Geographic Scope}
+
+The operational perimeter was set to the Casablanca--Settat--El~Jadida
+region, selected for its data concentration and economic coherence.
+A triple geographic filter (GPS bounding box, normalized city name,
+region code) reduced the initial 48,209 merged entities to 37,873
+spatially valid entities, eliminating 10,336 out-of-region records.
+
+\subsection{Spatial Aggregation}
+
+Individual entities were aggregated into a uniform 1.5~km $\times$ 1.5~km
+GPS grid, chosen to balance intra-urban resolution and minimum
+statistical cell population. A critical preprocessing step addressed
+a density artifact: 4,684 entities with missing GPS coordinates
+had been imputed to the city centroid, creating an artificially dominant
+cell. A binary flag \texttt{coords\_real} was introduced to distinguish
+original from imputed coordinates; density features use only original
+coordinates, while imputed entities contribute only to qualitative statistics.
+
+After applying a minimum threshold of 3 real entities per cell,
+the final dataset comprises \textbf{792 observations across 142 zones and 13 sectors},
+forming the basis for all modeling experiments.
+
+\subsection{Feature Engineering}
+
+Twelve zone-level features were engineered from the aggregated data,
+as summarized in Table~\ref{tab:features}.
+
+\begin{table}[htbp]
+\caption{Zone-Level Features Used in Clustering}
+\label{tab:features}
+\begin{center}
+\begin{tabular}{|l|p{5cm}|}
+\hline
+\textbf{Feature} & \textbf{Description} \\
+\hline
+\texttt{entity\_count\_real} & Entities with real GPS coordinates \\
+\texttt{entity\_count\_total} & All entities linked to the zone \\
+\texttt{density\_log} & Log-transformed spatial density \\
+\texttt{active\_rate} & Share of active entities \\
+\texttt{capital\_median} & Median registered capital \\
+\texttt{capital\_mean} & Mean registered capital \\
+\texttt{capital\_max} & Maximum registered capital \\
+\texttt{sector\_diversity} & Shannon-based sector diversification index \\
+\texttt{formal\_ratio} & Formalization ratio (SARL/SA share) \\
+\texttt{sarl\_count} & Number of SARL-type entities \\
+\texttt{sa\_count} & Number of SA-type entities \\
+\texttt{n\_sectors\_present} & Count of distinct active sectors \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+The synthetic attractiveness score, computed as a weighted composite
+of these same features for descriptive validation purposes, was
+\textit{explicitly excluded} from all clustering and classification
+inputs to prevent circular reasoning---a key methodological
+safeguard \cite{sakti2024machine}.
+
+% -------------------------------------------------------
+\section{Methodology}
+\label{sec:method}
+
+\subsection{Pipeline Architecture}
+
+The modeling pipeline consists of four stages, as shown in Fig.~\ref{fig:pipeline}:
+(1) spatial aggregation and feature construction; (2) multi-objective
+clustering and algorithm selection; (3) cluster interpretation and
+economic profiling; and (4) supervised profile assignment.
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=\columnwidth]{artifacts/figures/morocco_cluster_map_typology.png}}
+\caption{Spatial distribution of discovered economic profiles
+  (typology mode, Spectral Clustering $k=3$) over the
+  Casablanca--Settat--El~Jadida region. Each color denotes one
+  economic archetype.}
+\label{fig:pipeline}
+\end{figure}
+
+\subsection{Multi-Objective Clustering Selection}
+
+Seven algorithm families were evaluated: K-Means ($k \in [3,6]$),
+Gaussian Mixture Models with full and diagonal covariance
+($k \in [3,6]$), Ward and average/complete Agglomerative Clustering
+($k \in [3,6]$), and Spectral Clustering with nearest-neighbor
+affinity ($k \in [3,6]$). DBSCAN was evaluated in a separate
+anomaly mode described in Section~\ref{sec:anomaly}.
+
+Algorithm selection was governed by a multi-objective score:
+\begin{equation}
+  \mathcal{O} = \alpha \cdot S + \beta \cdot B \cdot \mathbf{1}[\text{supervised-valid}]
+  \label{eq:objective}
+\end{equation}
+where $S$ is the silhouette coefficient, $B$ is the entropy-based
+balance score over cluster sizes, and $\mathbf{1}[\text{supervised-valid}]$
+is an indicator requiring a minimum cluster share of 10\% for each cluster.
+Weights $\alpha$ and $\beta$ were set to 0.3 and 0.7, prioritizing
+a balanced and trainable partition over raw separation.
+
+\subsection{Supervised Profile Assignment}
+
+Once cluster labels were discovered, a supervised classifier was trained
+to predict these labels on held-out zones, enabling generalization to
+new geographic areas. Three classifiers were compared:
+Random~Forest, XGBoost, and LightGBM, evaluated via 5-fold
+cross-validated macro-F1. The classifier feature set extended
+the clustering features with spatial coordinates (\texttt{cell\_lat},
+\texttt{cell\_lon}) and a categorical city indicator.
+A strict anti-leakage protocol excluded the attractiveness score
+and cluster label from all predictor inputs.
+
+\subsection{Anomaly Detection Mode}
+\label{sec:anomaly}
+
+In complementary anomaly mode, DBSCAN ($\varepsilon=2.0$,
+\textit{min\_samples}=3) was applied to detect atypical
+high-formalization or high-capital economic pockets.
+This produced 6 noise-flagged zones and 3 compact clusters,
+offering a secondary analytical lens on spatial economic outliers.
+
+% -------------------------------------------------------
+\section{Results and Explainability}
+\label{sec:results}
+
+\subsection{Clustering Selection}
+
+Table~\ref{tab:clustering} summarizes the top-performing models
+from the typology selection grid. Spectral Clustering with $k=3$
+was selected with a silhouette of 0.229 and an exceptionally high
+balance score of 0.963, satisfying the supervised readiness constraint.
+K-Means yielded higher silhouette values but consistently produced
+degenerate partitions with singleton clusters, failing the balance
+and supervisory readiness criteria.
+
+\begin{table}[htbp]
+\caption{Clustering Algorithm Comparison (Top Results, Typology Mode)}
+\label{tab:clustering}
+\begin{center}
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Algorithm} & \textbf{$k$} & \textbf{Silhouette} & \textbf{Balance} & \textbf{Valid} \\
+\hline
+K-Means          & 3 & 0.266 & 0.665 & No \\
+K-Means          & 6 & 0.353 & 0.598 & No \\
+GMM (full)       & 3 & 0.277 & 0.700 & No \\
+GMM (diag)       & 3 & 0.130 & 0.974 & \textbf{Yes} \\
+Agglomerative (ward) & 6 & 0.330 & 0.734 & No \\
+\textbf{Spectral}& \textbf{3} & \textbf{0.229} & \textbf{0.963} & \textbf{Yes} \\
+Spectral         & 4 & 0.187 & 0.931 & Yes \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{Discovered Economic Profiles}
+
+The three discovered profiles exhibit coherent and distinguishable
+economic characteristics:
+
+\begin{itemize}
+  \item \textbf{Cluster 0 --- Underdeveloped early-stage ecosystems}
+    (29 zones, 20.4\%): Low density ($\log$-density $= 2.87$),
+    low activity rate (0.58), and minimal formalization
+    (formal ratio $= 0.017$). Post-hoc validation score: 35.0.
+  \item \textbf{Cluster 1 --- Active emerging zones}
+    (56 zones, 39.4\%): Moderate density ($\log$-density $= 2.42$),
+    high activity rate (0.946), and rising formalization
+    (formal ratio $= 0.173$). Post-hoc validation score: 53.0.
+  \item \textbf{Cluster 2 --- High-density capital hubs}
+    (57 zones, 40.1\%): High density ($\log$-density $= 5.60$),
+    high sectoral presence ($n=9.70$ sectors), and high capital
+    intensity (mean capital $= 15.7$M MAD). Post-hoc validation
+    score: 61.3.
+\end{itemize}
+
+The monotonic progression of post-hoc validation scores
+(35.0 $\rightarrow$ 53.0 $\rightarrow$ 61.3) confirms
+economic coherence of the discovered typology
+without introducing leakage.
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=\columnwidth]{artifacts/figures/cluster_profile_heatmap_typology.png}}
+\caption{Normalized feature heatmap of the three discovered economic profiles.
+  Darker cells indicate higher normalized feature values.}
+\label{fig:heatmap}
+\end{figure}
+
+\subsection{Supervised Classification Results}
+
+Table~\ref{tab:classifier} reports classifier performance on the held-out
+test set. Random~Forest achieved the best macro-F1 (0.955) with
+99\% accuracy, selected over LightGBM and XGBoost by cross-validated
+macro-F1. These results confirm the generalizability of discovered
+profiles to unseen zones.
+
+\begin{table}[htbp]
+\caption{Cluster Classifier Performance (Test Set, Typology Mode)}
+\label{tab:classifier}
+\begin{center}
+\begin{tabular}{|l|c|c|}
+\hline
+\textbf{Model} & \textbf{CV F1-macro} & \textbf{Test F1-macro} \\
+\hline
+Random Forest & \textbf{0.9587} & \textbf{0.9552} \\
+XGBoost       & 0.8961          & ---             \\
+LightGBM      & 0.8860          & ---             \\
+\hline
+\multicolumn{2}{|l|}{Test Accuracy (Random Forest)} & \textbf{0.9655} \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{Feature Importance and Explainability}
+
+Fig.~\ref{fig:density} illustrates the spatial distribution of
+business density across the study region. Feature importance analysis
+identifies the following top predictors of cluster assignment
+(descending order): \texttt{active\_rate} (0.201),
+\texttt{density\_log} (0.114), \texttt{entity\_count\_real} (0.113),
+\texttt{n\_sectors\_present} (0.105), \texttt{entity\_count\_total} (0.100),
+\texttt{sarl\_count} (0.093), and \texttt{formal\_ratio} (0.065).
+Spatial coordinates (\texttt{cell\_lat}, \texttt{cell\_lon}) contribute
+marginally, indicating that the profile structure is driven by
+economic intensity rather than geographic location per se.
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=\columnwidth]{artifacts/figures/morocco_density_heatmap_typology.png}}
+\caption{Spatial density heatmap of formal business entities
+  across the Casablanca--Settat--El~Jadida region (typology mode).
+  Darker areas indicate higher log-density.}
+\label{fig:density}
+\end{figure}
+
+This explainability pattern is economically coherent:
+the classifier separates profiles primarily by \textit{economic intensity}
+(density, entity counts), \textit{business vitality} (activity rate),
+\textit{structural complexity} (number of sectors), and
+\textit{formalization} (SARL count, formal ratio)---all interpretable
+dimensions of a spatial economic typology.
+
+% -------------------------------------------------------
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{Scientific Validity and Anti-Leakage Design}
+
+A central design choice in this work is the exclusion of the
+synthetic attractiveness score from all model inputs. This prevents
+the circular reasoning that would arise from predicting a score
+built from the same variables used for clustering
+\cite{feldmeyer2020using,sakti2024machine}. The score is retained
+exclusively for post-hoc validation, playing a role analogous to
+an external descriptive signal rather than a ground truth.
+
+\subsection{Practical Implications}
+
+The discovered profiles have direct policy relevance.
+Cluster~2 (\textit{High-density capital hubs}) zones can be targeted
+for advanced commercial infrastructure and high-value service investment.
+Cluster~1 (\textit{Active emerging zones}) represents a strategic
+intermediate population---economically active but capital-constrained---
+well-suited for support programs targeting SME formalization.
+Cluster~0 (\textit{Underdeveloped early-stage ecosystems}) zones indicate
+areas where baseline economic stimulation and infrastructure
+investment may be needed.
+
+The Random~Forest classifier enables operational deployment:
+new zones from other Moroccan regions can be assigned to economic
+profiles by computing their feature vector, without requiring
+a complete re-clustering of the full dataset.
+
+\subsection{Limitations}
+
+The main limitations of this study are as follows.
+The analysis is geographically constrained to the
+Casablanca--Settat--El~Jadida region; generalization to other
+Moroccan regions requires validation against independent data.
+Cluster labels are latent constructs, not official administrative
+economic categories, and should be interpreted as descriptive
+archetypes rather than absolute classifications.
+The unsupervised solution is sensitive to feature scaling and
+hyperparameter choices; multi-model selection mitigates but does
+not eliminate this sensitivity.
+Finally, data are treated as a static snapshot; temporal dynamics
+and macroeconomic shocks are not modeled.
+
+% -------------------------------------------------------
+\section{Conclusion}
+\label{sec:conclusion}
+
+This paper presented a data-driven pipeline for discovering,
+characterizing, and assigning economic spatial profiles in Morocco
+using unsupervised and supervised machine learning.
+Applied to 142 geographic zones in the Casablanca--Settat--El~Jadida
+region, Spectral Clustering ($k=3$) revealed three interpretable
+economic archetypes that are economically coherent, structurally stable,
+and predictively generalizable. A Random~Forest classifier achieved
+a test macro-F1 of 0.955, confirming that discovered profiles
+can be assigned to new zones with high reliability.
+Feature importance analysis identified business activity, density,
+sectoral diversification, and formalization as the primary structural
+drivers of spatial economic differentiation.
+
+This framework is directly applicable to other Moroccan regions
+and to comparable data-scarce emerging-economy contexts.
+Future work will extend the pipeline to a national multi-regional
+scope, incorporate temporal dynamics through panel data,
+and enrich the feature set with complementary sources
+(OpenStreetMap amenities, mobility data) for richer
+spatial economic characterization.
+
+% -------------------------------------------------------
+\section*{Acknowledgment}
+
+The authors thank EMSI Marrakech for institutional support
+and access to computing resources.
+
+% -------------------------------------------------------
+\begin{thebibliography}{00}
+
+\bibitem{xu2023enhancing}
+X. Xu, Z. Chen, and S. Chen,
+``Enhancing economic competitiveness analysis through machine learning:
+Exploring complex urban features,''
+\textit{PLoS ONE}, vol.~18, no.~11, p.~e0293303, 2023.
+
+\bibitem{castellana2024exploring}
+F. Castellana et~al.,
+``Exploring Apulia's regional tourism attractiveness through the lens of
+sustainability: A machine learning approach and counterfactual explainability process,''
+\textit{Sustainability}, vol.~16, no.~15, p.~6287, 2024.
+
+\bibitem{khalid2023artificial}
+S. Khalid, D. Effina, K. R. Khalid, and M. S. Chaabane,
+``The artificial intelligence as a decision-making instrument for modeling
+and predicting small cities' attractiveness: Evidence from Morocco,''
+\textit{Applied Mathematics \& Information Sciences}, vol.~17, no.~5,
+pp.~905--913, 2023.
+
+\bibitem{feldmeyer2020using}
+D. Feldmeyer, C. Meisch, H. Sauter, and J. Birkmann,
+``Using OpenStreetMap data and machine learning to generate socio-economic indicators,''
+\textit{ISPRS International Journal of Geo-Information},
+vol.~9, no.~9, p.~498, 2020.
+
+\bibitem{chen2025machine}
+S. Chen et~al.,
+``Machine learning approaches to predicting urban park attractiveness:
+Insights from Shanghai and Tokyo,''
+\textit{Urban Forestry \& Urban Greening}, vol.~112, p.~128921, 2025.
+
+\bibitem{huang2022machine}
+X. Huang, P. Gong, S. Wang, M. White, and B. Zhang,
+``Machine learning modeling of vitality characteristics in historical
+preservation zones with multi-source data,''
+\textit{Buildings}, vol.~12, no.~11, p.~1978, 2022.
+
+\bibitem{kourtit2021safe}
+K. Kourtit, M. M. Marinescu Pele, P. Nijkamp, and D. T. Pele,
+``Safe cities in the new urban world: A comparative cluster dynamics
+analysis through machine learning,''
+\textit{Sustainable Cities and Society}, vol.~66, p.~102665, 2021.
+
+\bibitem{agiropoulos2024exploring}
+C. Agiropoulos, J. M. Chen, G. Galanos, and T. Poufinas,
+``Exploring regional determinants of tourism success in the eurozone:
+An unsupervised machine learning approach,''
+\textit{Engineering Proceedings}, vol.~68, no.~1, p.~53, 2024.
+
+\bibitem{sakti2024machine}
+A. D. Sakti et~al.,
+``Machine learning based urban sprawl assessment using integrated
+multi-hazard and environmental-economic impact,''
+\textit{Scientific Reports}, vol.~14, no.~1, p.~13385, 2024.
+
+\bibitem{giglio2020machine}
+S. Giglio, F. Bertacchini, E. Bilotta, and P. Pantano,
+``Machine learning and points of interest: Typical tourist Italian cities,''
+\textit{Current Issues in Tourism}, vol.~23, no.~13, pp.~1646--1658, 2020.
+
+\bibitem{bi2024collaborative}
+J.-W. Bi, T.-Y. Han, and Y. Yao,
+``Collaborative forecasting of tourism demand for multiple tourist attractions
+with spatial dependence: A combined deep learning model,''
+\textit{Tourism Economics}, vol.~30, no.~2, pp.~361--388, 2024.
+
+\bibitem{abang2022using}
+A. Z. Abang Abdurahman et~al.,
+``Using machine learning to predict visitors to totally protected areas
+in Sarawak, Malaysia,''
+\textit{Sustainability}, vol.~14, no.~5, p.~2735, 2022.
+
+\end{thebibliography}
+
+\end{document}

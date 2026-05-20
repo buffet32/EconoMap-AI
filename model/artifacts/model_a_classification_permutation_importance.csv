@@ -1,0 +1,37 @@
+feature,importance,std
+vitality,0.48675031139239316,0.025546815351831866
+active_rate,0.09486821512770204,0.021836789477838514
+formal_ratio,0.019321670413583958,0.009888772307447795
+sector_diversity,0.016580226629242634,0.011086196844712772
+capital_mean,0.009477884775979916,0.0042415862474783714
+sarl_count,0.009372366214338646,0.0050146287607202725
+rel_density,0.005049601843601171,0.0025248009218005853
+sa_count,0.0025489708473309114,0.005054936358776843
+entity_count_real,0.0011752095742847302,0.0038414274423676778
+sector_main_Finance,0.0006000857731886966,0.00180025731956609
+density_log,0.0,0.0
+entity_count_total,0.0,0.0
+city_n_sectors,0.0,0.0
+gps_quality,0.0,0.0
+city_avg_active,0.0,0.0
+city_avg_density,0.0,0.0
+rel_capital,0.0,0.0
+city_avg_capital,0.0,0.0
+city_Casablanca,0.0,0.0
+capital_median,0.0,0.0
+sector_main_Tourism & Hospitality,0.0,0.0
+sector_main_Information Technology,0.0,0.0
+city_Mohammedia,0.0,0.0
+city_El Jadida,0.0,0.0
+city_Settat,0.0,0.0
+sector_main_Construction,0.0,0.0
+sector_main_Education,0.0,0.0
+sector_main_Healthcare,0.0,0.0
+sector_main_Real Estate,0.0,0.0
+sector_main_Professional Services,0.0,0.0
+sector_main_Manufacturing,0.0,0.0
+sector_main_Other,-0.0006921722168886313,0.0033869721785978273
+sector_main_Transport,-0.0012922579900773278,0.0025845159801546557
+capital_max,-0.005169031960309311,0.002584515980154656
+weighted_capital,-0.00571399983555394,0.005881462210944227
+sector_main_Commerce,-0.00705958892169446,0.003430136793303315

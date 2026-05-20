@@ -1,0 +1,519 @@
+.dashboard-container {
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+.dashboard-topbar {
+  background: #23233a;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dashboard-topbar a {
+  color: #fff;
+  margin-right: 10px;
+}
+.dashboard-topbar a:last-child {
+  margin-right: 0;
+}
+.dashboard-stats {
+  display: flex;
+  gap: 24px;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.dashboard-card {
+  background: rgba(30,30,50,0.95);
+  color: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  min-width: 220px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dashboard-card .dashboard-card-icon {
+  border-radius: 50%;
+  width: 45px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard-search {
+  background: rgba(30,30,50,0.95);
+  color: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 1100px;
+  margin: 0 auto 2rem auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+.dashboard-search h2 {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+.dashboard-search-fields {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.dashboard-input {
+  flex: 1;
+  min-width: 180px;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  background: #23233a;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.dashboard-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #8c54bc;
+  background: #2a2a4a;
+}
+.dashboard-input::placeholder {
+  color: #888;
+}
+.dashboard-search-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+.dashboard-search-actions button {
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.dashboard-search-actions button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.dashboard-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.dashboard-company-card {
+  background: rgba(30,30,50,0.95);
+  color: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  min-width: 280px;
+  max-width: 340px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  margin-bottom: 24px;
+  transition: all 0.3s ease;
+}
+.dashboard-company-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+.dashboard-company-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.dashboard-company-card-logo {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+.dashboard-company-card-title {
+  font-weight: 700;
+  font-size: 18px;
+}
+.dashboard-company-card-sector {
+  color: #aaa;
+  font-size: 14px;
+}
+.dashboard-company-card-info {
+  color: #bbb;
+  font-size: 14px;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+}
+.dashboard-company-card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+.dashboard-company-card-actions button {
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.dashboard-company-card-actions button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.dashboard-company-card-actions button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.dashboard-company-card-actions button:disabled:hover {
+  transform: none;
+  box-shadow: none;
+}
+.dashboard-map-quickstats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto 2rem auto;
+}
+.dashboard-map-card {
+  flex: 2;
+  min-width: 340px;
+  background: rgba(30,30,50,0.95);
+  color: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+.dashboard-map-card h2 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.dashboard-map-placeholder {
+  height: 300px;
+  background: #23233a;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  font-size: 18px;
+}
+.dashboard-quickstats-card {
+  flex: 1;
+  min-width: 300px;
+  background: rgba(30,30,50,0.95);
+  color: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+.dashboard-quickstats-card h2 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.dashboard-quickstats-card h3 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.dashboard-bar {
+  margin-bottom: 10px;
+}
+.dashboard-bar-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.dashboard-bar-bg {
+  background: #23233a;
+  border-radius: 8px;
+  height: 10px;
+  margin-top: 4px;
+}
+.dashboard-bar-fill {
+  height: 100%;
+  border-radius: 8px;
+}
+
+/* Leaflet Map Styles */
+.leaflet-container {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.leaflet-popup-content-wrapper {
+  background: rgba(30,30,50,0.95);
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+
+.leaflet-popup-content {
+  margin: 12px;
+  color: #fff;
+}
+
+.leaflet-popup-tip {
+  background: rgba(30,30,50,0.95);
+}
+
+.leaflet-popup-close-button {
+  color: #fff !important;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.leaflet-popup-close-button:hover {
+  color: #8c54bc !important;
+}
+
+/* Search Results Counter */
+.search-results-counter {
+  color: #4fd1c5;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Secteurs Styles */
+.dashboard-secteurs {
+  margin-top: 40px;
+  padding: 2rem 0;
+}
+.dashboard-secteurs-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.dashboard-secteur-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 24px 20px;
+  width: 200px;
+  min-height: 200px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.dashboard-secteur-card:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+.dashboard-secteur-card:hover .dashboard-secteur-overlay {
+  opacity: 1;
+}
+.dashboard-secteur-card:hover .dashboard-secteur-icon {
+  transform: scale(1.1);
+}
+.dashboard-secteur-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+  transition: transform 0.3s ease;
+}
+.dashboard-secteur-label {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  margin-bottom: 0.5rem;
+}
+.dashboard-secteur-count {
+  color: rgba(255,255,255,0.9);
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+}
+.dashboard-secteur-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255,255,255,0.1);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+/* Villes Styles */
+.dashboard-villes {
+  margin-top: 40px;
+  padding: 2rem 0;
+}
+.dashboard-villes-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.dashboard-ville-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 16px;
+  padding: 20px 16px;
+  width: 160px;
+  min-height: 140px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.dashboard-ville-card:hover {
+  transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+.dashboard-ville-card:hover .dashboard-ville-overlay {
+  opacity: 1;
+}
+.dashboard-ville-card:hover .dashboard-ville-icon {
+  transform: scale(1.1);
+}
+.dashboard-ville-icon {
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+.dashboard-ville-label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  margin-bottom: 0.5rem;
+}
+.dashboard-ville-count {
+  color: rgba(255,255,255,0.9);
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+}
+.dashboard-ville-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255,255,255,0.1);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dashboard-search-fields {
+    flex-direction: column;
+  }
+  
+  .dashboard-input {
+    min-width: 100%;
+  }
+  
+  .dashboard-map-quickstats {
+    flex-direction: column;
+  }
+  
+  .dashboard-map-card,
+  .dashboard-quickstats-card {
+    flex: none;
+    min-width: 100%;
+  }
+  
+  .dashboard-stats {
+    gap: 16px;
+  }
+  
+  .dashboard-card {
+    min-width: 180px;
+    padding: 16px;
+  }
+  
+  .dashboard-secteurs-list {
+    gap: 16px;
+  }
+  
+  .dashboard-secteur-card {
+    width: 160px;
+    min-height: 160px;
+    padding: 20px 16px;
+  }
+  
+  .dashboard-secteur-icon {
+    font-size: 2.5rem;
+  }
+  
+  .dashboard-secteur-label {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard-secteur-card {
+    width: 140px;
+    min-height: 140px;
+    padding: 16px 12px;
+  }
+  
+  .dashboard-secteur-icon {
+    font-size: 2rem;
+  }
+  
+  .dashboard-secteur-label {
+    font-size: 0.9rem;
+  }
+  
+  .dashboard-secteur-count {
+    font-size: 0.8rem;
+  }
+  
+  .dashboard-villes-list {
+    gap: 16px;
+  }
+  
+  .dashboard-ville-card {
+    width: 140px;
+    min-height: 120px;
+    padding: 16px 12px;
+  }
+  
+  .dashboard-ville-icon {
+    font-size: 2rem;
+  }
+  
+  .dashboard-ville-label {
+    font-size: 0.9rem;
+  }
+  
+  .dashboard-ville-count {
+    font-size: 0.8rem;
+  }
+}

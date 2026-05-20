@@ -1,0 +1,78 @@
+{
+  "task": "Predict economic cluster membership",
+  "mode": "anomaly",
+  "selected_model": "LightGBM",
+  "cv_f1_macro_by_model": {
+    "RandomForest": 0.6601780808941934,
+    "XGBoost": 0.5087584850076738,
+    "LightGBM": 0.9612535612535612
+  },
+  "cv_f1_macro_selected": 0.9612535612535612,
+  "test_accuracy": 0.9642857142857143,
+  "test_f1_macro": 0.660377358490566,
+  "classification_report": {
+    "0": {
+      "precision": 0.9629629629629629,
+      "recall": 1.0,
+      "f1-score": 0.9811320754716981,
+      "support": 26.0
+    },
+    "1": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "2": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "accuracy": 0.9642857142857143,
+    "macro avg": {
+      "precision": 0.6543209876543209,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.660377358490566,
+      "support": 28.0
+    },
+    "weighted avg": {
+      "precision": 0.9298941798941798,
+      "recall": 0.9642857142857143,
+      "f1-score": 0.9467654986522911,
+      "support": 28.0
+    }
+  },
+  "features_numeric": [
+    "entity_count_real",
+    "entity_count_total",
+    "density_log",
+    "active_rate",
+    "capital_median",
+    "capital_mean",
+    "capital_max",
+    "sector_diversity",
+    "formal_ratio",
+    "sarl_count",
+    "sa_count",
+    "n_sectors_present",
+    "cell_lat",
+    "cell_lon"
+  ],
+  "features_categorical": [
+    "city"
+  ],
+  "leakage_controls": [
+    "attractivity_score excluded from classifier features",
+    "attractivity_class excluded from classifier features",
+    "cluster_label used as target only"
+  ],
+  "dropped_rare_clusters": [],
+  "shap_explainability": {
+    "status": "computed",
+    "n_samples": 108,
+    "n_features": 19,
+    "importance_path": "C:\\Users\\DELL Tac\\Desktop\\economic-attractivity-prediction-ml\\artifacts\\cluster_classifier_shap_importance_anomaly.csv",
+    "values_path": "C:\\Users\\DELL Tac\\Desktop\\economic-attractivity-prediction-ml\\artifacts\\cluster_classifier_shap_values_anomaly.csv"
+  }
+}

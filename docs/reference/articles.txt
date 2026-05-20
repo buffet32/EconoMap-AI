@@ -1,0 +1,168 @@
+@article{xu2023enhancing,
+  title={Enhancing economic competitiveness analysis through machine learning: Exploring complex urban features},
+  author={Xu, Xiaofeng and Chen, Zhaoyuan and Chen, Shixiang},
+  journal={Plos one},
+  volume={18},
+  number={11},
+  pages={e0293303},
+  year={2023},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
+
+@article{castellana2024exploring,
+  title={Exploring Apulia’s regional tourism attractiveness through the lens of sustainability: a machine learning approach and counterfactual explainability process},
+  author={Castellana, Fabio and Zupo, Roberta and Corbo, Filomena and Crupi, Pasquale and Catino, Feliciana and Petrosillo, Angelo Michele and Giannico, Orazio Valerio and Sardone, Rodolfo and Clodoveo, Maria Lisa},
+  journal={Sustainability},
+  volume={16},
+  number={15},
+  pages={6287},
+  year={2024},
+  publisher={MDPI}
+}
+
+@article{khalid2023artificial,
+  title={The artificial intelligence as a decisionmaking instrument for modeling and predicting small cities’ attractiveness: evidence from Morocco},
+  author={Khalid, Sohaib and Effina, Driss and Khalid, Khaoula Rihab and Chaabane, Mohamed Salem},
+  journal={Appl. Math. Inf. Sci},
+  volume={17},
+  number={5},
+  pages={905--913},
+  year={2023}
+}
+
+@article{bi2024collaborative,
+  title={Collaborative forecasting of tourism demand for multiple tourist attractions with spatial dependence: A combined deep learning model},
+  author={Bi, Jian-Wu and Han, Tian-Yu and Yao, Yanbo},
+  journal={Tourism Economics},
+  volume={30},
+  number={2},
+  pages={361--388},
+  year={2024},
+  publisher={SAGE Publications Sage UK: London, England}
+}
+
+@article{abang2022using,
+  title={Using machine learning to predict visitors to totally protected areas in Sarawak, Malaysia},
+  author={Abang Abdurahman, Abang Zainoren and Wan Yaacob, Wan Fairos and Md Nasir, Syerina Azlin and Jaya, Serah and Mokhtar, Suhaili},
+  journal={Sustainability},
+  volume={14},
+  number={5},
+  pages={2735},
+  year={2022},
+  publisher={MDPI}
+}
+
+@article{sakti2024machine,
+  title={Machine learning based urban sprawl assessment using integrated multi-hazard and environmental-economic impact},
+  author={Sakti, Anjar Dimara and Deliar, Albertus and Hafidzah, Dyah Rezqy and Chintia, Adria Viola and Anggraini, Tania Septi and Ihsan, Kalingga Titon Nur and Virtriana, Riantini and Suwardhi, Deni and Harto, Agung Budi and Nurmaulia, Sella Lestari and others},
+  journal={Scientific Reports},
+  volume={14},
+  number={1},
+  pages={13385},
+  year={2024},
+  publisher={Nature Publishing Group UK London}
+}
+
+@article{albora2026machine,
+  title={Machine learning-inspired similarity measure to forecast M\&A from patent data},
+  author={Albora, Giambattista and Straccamore, Matteo and Zaccaria, Andrea},
+  journal={PloS one},
+  volume={21},
+  number={2},
+  pages={e0341010},
+  year={2026},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
+
+@article{milunovich2026airbnb,
+  title={Airbnb pricing in Sydney: predictive modelling and explainable machine learning},
+  author={Milunovich, George and Nasrabadi, Dom},
+  journal={Applied Economics},
+  volume={58},
+  number={1},
+  pages={1--18},
+  year={2026},
+  publisher={Taylor \& Francis}
+}
+
+@article{arici2026factors,
+  title={What factors predict the satisfaction ratings of Airbnb users in ten European cities: a machine learning approach},
+  author={Arici, Nagihan Cakmakoglu and Koseoglu, Mehmet Ali},
+  journal={Quality \& Quantity},
+  pages={1--27},
+  year={2026},
+  publisher={Springer}
+}
+
+@article{lee2026estimation,
+  title={Estimation model of vacant houses in population decline areas using machine learning},
+  author={Lee, Soyeong and Bae, Mincheul and Joo, Heesun},
+  journal={Journal of Asian Architecture and Building Engineering},
+  pages={1--17},
+  year={2026},
+  publisher={Taylor \& Francis}
+}
+
+@article{feldmeyer2020using,
+  title={Using OpenStreetMap data and machine learning to generate socio-economic indicators},
+  author={Feldmeyer, Daniel and Meisch, Claude and Sauter, Holger and Birkmann, Joern},
+  journal={ISPRS International Journal of Geo-Information},
+  volume={9},
+  number={9},
+  pages={498},
+  year={2020},
+  publisher={MDPI}
+}
+
+@article{chen2025machine,
+  title={Machine learning approaches to predicting urban park attractiveness: Insights from Shanghai and Tokyo},
+  author={Chen, Shengze and Feng, Yuting and Guan, Chenghe and Xu, Yanyan and Tan, Qiaoyu and Li, Ying and Yang, Xiaokang},
+  journal={Urban Forestry \& Urban Greening},
+  volume={112},
+  pages={128921},
+  year={2025},
+  publisher={Elsevier}
+}
+
+@article{agiropoulos2024exploring,
+  title={Exploring regional determinants of tourism success in the eurozone: An unsupervised machine learning approach},
+  author={Agiropoulos, Charalampos and Chen, James Ming and Galanos, George and Poufinas, Thomas},
+  journal={Engineering Proceedings},
+  volume={68},
+  number={1},
+  pages={53},
+  year={2024},
+  publisher={MDPI}
+}
+
+@article{huang2022machine,
+  title={Machine learning modeling of vitality characteristics in historical preservation zones with multi-source data},
+  author={Huang, Xiaoran and Gong, Pixin and Wang, Siyan and White, Marcus and Zhang, Bo},
+  journal={Buildings},
+  volume={12},
+  number={11},
+  pages={1978},
+  year={2022},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@article{giglio2020machine,
+  title={Machine learning and points of interest: typical tourist Italian cities},
+  author={Giglio, Simona and Bertacchini, Francesca and Bilotta, Eleonora and Pantano, Pietro},
+  journal={Current Issues in Tourism},
+  volume={23},
+  number={13},
+  pages={1646--1658},
+  year={2020},
+  publisher={Taylor \& Francis}
+}
+
+@article{kourtit2021safe,
+  title={Safe cities in the new urban world: A comparative cluster dynamics analysis through machine learning},
+  author={Kourtit, Karima and Pele, Miruna Mazurencu Marinescu and Nijkamp, Peter and Pele, Daniel Traian},
+  journal={Sustainable Cities and Society},
+  volume={66},
+  pages={102665},
+  year={2021},
+  publisher={Elsevier}
+}

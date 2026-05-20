@@ -1,0 +1,12 @@
+{
+  "mode": "anomaly",
+  "classifier_selected_model": "LightGBM",
+  "classifier_test_f1_macro": 0.660377358490566,
+  "classifier_test_accuracy": 0.9642857142857143,
+  "generated_figures": [
+    "C:\\Users\\DELL Tac\\Desktop\\economic-attractivity-prediction-ml\\artifacts\\figures\\morocco_cluster_map_anomaly.png",
+    "C:\\Users\\DELL Tac\\Desktop\\economic-attractivity-prediction-ml\\artifacts\\figures\\morocco_density_heatmap_anomaly.png",
+    "C:\\Users\\DELL Tac\\Desktop\\economic-attractivity-prediction-ml\\artifacts\\figures\\morocco_capital_heatmap_anomaly.png",
+    "C:\\Users\\DELL Tac\\Desktop\\economic-attractivity-prediction-ml\\artifacts\\figures\\cluster_profile_heatmap_anomaly.png"
+  ]
+}

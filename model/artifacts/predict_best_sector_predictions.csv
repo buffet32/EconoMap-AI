@@ -1,0 +1,160 @@
+true_sector,top1_sector,top1_score,top2_sector,top3_sector,hit_top3
+Finance,Manufacturing,34.33,Tourism & Hospitality,Professional Services,0
+Transport,Education,54.37,Professional Services,Commerce,0
+Commerce,Real Estate,18.28,Transport,Manufacturing,0
+Other,Transport,85.16,Commerce,Professional Services,0
+Construction,Professional Services,79.21,Commerce,Information Technology,0
+Agriculture,Commerce,62.97,Other,Professional Services,0
+Construction,Tourism & Hospitality,62.12,Transport,Commerce,0
+Commerce,Professional Services,94.43,Tourism & Hospitality,Commerce,1
+Commerce,Professional Services,82.3,Commerce,Tourism & Hospitality,1
+Construction,Education,87.55,Transport,Commerce,0
+Finance,Manufacturing,43.31,Tourism & Hospitality,Professional Services,0
+Construction,Education,69.9,Commerce,Tourism & Hospitality,0
+Other,Manufacturing,35.79,Tourism & Hospitality,Other,1
+Transport,Real Estate,17.59,Commerce,Transport,1
+Construction,Professional Services,61.74,Commerce,Agriculture,0
+Healthcare,Healthcare,36.46,Real Estate,Professional Services,1
+Construction,Education,49.82,Commerce,Real Estate,0
+Finance,Tourism & Hospitality,30.68,Education,Healthcare,0
+Commerce,Transport,72.62,Education,Tourism & Hospitality,0
+Information Technology,Professional Services,52.27,Real Estate,Education,0
+Information Technology,Professional Services,80.06,Other,Information Technology,1
+Healthcare,Professional Services,52.61,Commerce,Manufacturing,0
+Construction,Commerce,56.1,Tourism & Hospitality,Other,0
+Information Technology,Education,61.62,Commerce,Manufacturing,0
+Manufacturing,Tourism & Hospitality,71.61,Commerce,Information Technology,0
+Healthcare,Healthcare,27.23,Real Estate,Commerce,1
+Healthcare,Healthcare,36.52,Real Estate,Professional Services,1
+Professional Services,Information Technology,57.16,Tourism & Hospitality,Other,0
+Professional Services,Commerce,81.03,Manufacturing,Professional Services,1
+Other,Commerce,57.46,Other,Manufacturing,1
+Real Estate,Tourism & Hospitality,54.66,Manufacturing,Professional Services,0
+Information Technology,Commerce,65.97,Tourism & Hospitality,Professional Services,0
+Information Technology,Professional Services,77.06,Tourism & Hospitality,Manufacturing,0
+Transport,Manufacturing,59.84,Professional Services,Tourism & Hospitality,0
+Commerce,Manufacturing,57.01,Professional Services,Tourism & Hospitality,0
+Construction,Real Estate,36.24,Manufacturing,Other,0
+Construction,Professional Services,89.57,Commerce,Tourism & Hospitality,0
+Information Technology,Professional Services,58.47,Real Estate,Tourism & Hospitality,0
+Healthcare,Education,75.85,Other,Commerce,0
+Information Technology,Tourism & Hospitality,90.63,Commerce,Information Technology,1
+Transport,Professional Services,51.2,Manufacturing,Commerce,0
+Finance,Healthcare,37.21,Manufacturing,Real Estate,0
+Professional Services,Education,52.84,Tourism & Hospitality,Professional Services,1
+Other,Commerce,62.23,Tourism & Hospitality,Real Estate,0
+Tourism & Hospitality,Professional Services,80.31,Commerce,Tourism & Hospitality,1
+Real Estate,Professional Services,51.28,Real Estate,Construction,1
+Commerce,Commerce,73.87,Tourism & Hospitality,Other,1
+Commerce,Tourism & Hospitality,55.3,Professional Services,Manufacturing,0
+Other,Tourism & Hospitality,71.48,Professional Services,Manufacturing,0
+Tourism & Hospitality,Transport,52.55,Manufacturing,Other,0
+Real Estate,Commerce,50.52,Real Estate,Education,1
+Manufacturing,Commerce,19.02,Real Estate,Manufacturing,1
+Professional Services,Real Estate,24.63,Commerce,Education,0
+Commerce,Professional Services,78.92,Manufacturing,Tourism & Hospitality,0
+Construction,Professional Services,78.15,Commerce,Tourism & Hospitality,0
+Manufacturing,Professional Services,55.21,Transport,Healthcare,0
+Information Technology,Professional Services,95.25,Tourism & Hospitality,Commerce,0
+Manufacturing,Commerce,16.54,Real Estate,Professional Services,0
+Commerce,Commerce,74.96,Professional Services,Transport,1
+Professional Services,Manufacturing,30.47,Healthcare,Tourism & Hospitality,0
+Healthcare,Education,56.18,Other,Information Technology,0
+Healthcare,Real Estate,43.41,Tourism & Hospitality,Other,0
+Information Technology,Tourism & Hospitality,72.32,Commerce,Manufacturing,0
+Finance,Education,29.38,Transport,Manufacturing,0
+Transport,Manufacturing,49.13,Transport,Education,1
+Transport,Professional Services,56.74,Tourism & Hospitality,Manufacturing,0
+Transport,Professional Services,62.26,Information Technology,Tourism & Hospitality,0
+Real Estate,Professional Services,82.74,Commerce,Tourism & Hospitality,0
+Finance,Professional Services,54.62,Transport,Manufacturing,0
+Transport,Commerce,21.04,Tourism & Hospitality,Education,0
+Education,Healthcare,27.86,Real Estate,Professional Services,0
+Information Technology,Commerce,72.0,Professional Services,Tourism & Hospitality,0
+Professional Services,Tourism & Hospitality,58.22,Professional Services,Manufacturing,1
+Manufacturing,Professional Services,63.14,Manufacturing,Commerce,1
+Manufacturing,Other,67.55,Tourism & Hospitality,Commerce,0
+Healthcare,Manufacturing,34.81,Tourism & Hospitality,Other,0
+Other,Commerce,62.47,Manufacturing,Transport,0
+Real Estate,Tourism & Hospitality,58.93,Education,Professional Services,0
+Professional Services,Professional Services,55.48,Information Technology,Tourism & Hospitality,1
+Professional Services,Transport,34.27,Education,Real Estate,0
+Finance,Transport,53.92,Professional Services,Manufacturing,0
+Healthcare,Education,35.91,Healthcare,Real Estate,1
+Commerce,Professional Services,59.49,Commerce,Agriculture,1
+Information Technology,Manufacturing,55.49,Professional Services,Commerce,0
+Other,Real Estate,15.6,Manufacturing,Transport,0
+Manufacturing,Transport,78.73,Education,Tourism & Hospitality,0
+Transport,Manufacturing,53.65,Tourism & Hospitality,Professional Services,0
+Finance,Manufacturing,35.53,Transport,Professional Services,0
+Other,Professional Services,75.95,Manufacturing,Agriculture,0
+Finance,Manufacturing,26.37,Tourism & Hospitality,Real Estate,0
+Manufacturing,Professional Services,70.66,Commerce,Tourism & Hospitality,0
+Healthcare,Healthcare,36.49,Professional Services,Real Estate,1
+Construction,Commerce,62.16,Tourism & Hospitality,Transport,0
+Education,Manufacturing,34.83,Professional Services,Tourism & Hospitality,0
+Tourism & Hospitality,Manufacturing,55.22,Commerce,Professional Services,0
+Transport,Real Estate,32.85,Commerce,Education,0
+Commerce,Tourism & Hospitality,66.62,Commerce,Professional Services,1
+Real Estate,Professional Services,56.05,Other,Tourism & Hospitality,0
+Other,Manufacturing,57.86,Professional Services,Tourism & Hospitality,0
+Construction,Education,52.5,Tourism & Hospitality,Other,0
+Construction,Transport,37.76,Healthcare,Professional Services,0
+Other,Commerce,24.19,Education,Real Estate,0
+Manufacturing,Tourism & Hospitality,65.73,Commerce,Education,0
+Professional Services,Professional Services,57.21,Commerce,Manufacturing,1
+Healthcare,Tourism & Hospitality,31.83,Manufacturing,Education,0
+Construction,Commerce,72.72,Professional Services,Transport,0
+Transport,Professional Services,76.47,Commerce,Other,0
+Construction,Manufacturing,57.87,Professional Services,Tourism & Hospitality,0
+Real Estate,Professional Services,54.27,Tourism & Hospitality,Other,0
+Commerce,Real Estate,33.75,Commerce,Healthcare,1
+Transport,Tourism & Hospitality,84.93,Information Technology,Professional Services,0
+Tourism & Hospitality,Commerce,71.14,Professional Services,Tourism & Hospitality,1
+Manufacturing,Manufacturing,71.17,Tourism & Hospitality,Commerce,1
+Commerce,Transport,85.54,Manufacturing,Professional Services,0
+Other,Professional Services,55.84,Education,Manufacturing,0
+Commerce,Other,67.67,Education,Tourism & Hospitality,0
+Construction,Transport,38.57,Education,Tourism & Hospitality,0
+Professional Services,Commerce,64.8,Professional Services,Manufacturing,1
+Information Technology,Transport,38.49,Commerce,Education,0
+Finance,Education,62.18,Manufacturing,Other,0
+Manufacturing,Education,53.01,Tourism & Hospitality,Manufacturing,1
+Construction,Tourism & Hospitality,61.44,Manufacturing,Professional Services,0
+Construction,Commerce,66.08,Professional Services,Tourism & Hospitality,0
+Construction,Professional Services,79.36,Tourism & Hospitality,Commerce,0
+Commerce,Professional Services,57.92,Manufacturing,Tourism & Hospitality,0
+Manufacturing,Commerce,68.66,Tourism & Hospitality,Manufacturing,1
+Construction,Tourism & Hospitality,54.19,Manufacturing,Healthcare,0
+Healthcare,Professional Services,44.01,Real Estate,Other,0
+Other,Commerce,50.1,Tourism & Hospitality,Education,0
+Tourism & Hospitality,Tourism & Hospitality,64.48,Education,Construction,1
+Commerce,Professional Services,82.8,Tourism & Hospitality,Commerce,1
+Other,Education,72.53,Commerce,Tourism & Hospitality,0
+Other,Professional Services,62.9,Manufacturing,Tourism & Hospitality,0
+Information Technology,Manufacturing,45.23,Transport,Tourism & Hospitality,0
+Transport,Professional Services,59.38,Other,Manufacturing,0
+Information Technology,Education,67.69,Tourism & Hospitality,Commerce,0
+Other,Education,76.36,Commerce,Manufacturing,0
+Real Estate,Healthcare,36.05,Education,Commerce,0
+Commerce,Commerce,65.25,Professional Services,Tourism & Hospitality,1
+Other,Professional Services,52.2,Commerce,Tourism & Hospitality,0
+Information Technology,Tourism & Hospitality,54.1,Information Technology,Real Estate,1
+Commerce,Commerce,61.5,Other,Tourism & Hospitality,1
+Real Estate,Commerce,72.47,Professional Services,Tourism & Hospitality,0
+Information Technology,Other,65.2,Tourism & Hospitality,Manufacturing,0
+Transport,Commerce,83.9,Tourism & Hospitality,Professional Services,0
+Tourism & Hospitality,Professional Services,69.22,Tourism & Hospitality,Manufacturing,1
+Commerce,Commerce,45.5,Tourism & Hospitality,Professional Services,1
+Commerce,Real Estate,33.04,Commerce,Education,1
+Construction,Manufacturing,53.53,Professional Services,Tourism & Hospitality,0
+Education,Healthcare,29.04,Education,Real Estate,1
+Construction,Professional Services,63.94,Real Estate,Commerce,0
+Other,Education,44.92,Other,Tourism & Hospitality,1
+Healthcare,Manufacturing,42.61,Tourism & Hospitality,Professional Services,0
+Tourism & Hospitality,Tourism & Hospitality,65.77,Education,Commerce,1
+Commerce,Manufacturing,29.09,Tourism & Hospitality,Healthcare,0
+Manufacturing,Professional Services,60.96,Tourism & Hospitality,Commerce,0
+Construction,Professional Services,74.78,Tourism & Hospitality,Other,0
+Other,Professional Services,54.46,Tourism & Hospitality,Transport,0
+Information Technology,Professional Services,56.83,Manufacturing,Tourism & Hospitality,0

@@ -1,0 +1,9 @@
+# requirements.txt (root)
+# Full stack dependencies (backend + ML scripts)
+# Install : pip install -r requirements.txt
+
+-r backend/api/requirements.txt
+
+# Extra ML utilities used by scripts
+scipy>=1.10.0       # indice de Shannon (features.py)
+unidecode>=1.3.6    # normalisation texte

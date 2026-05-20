@@ -1,0 +1,24 @@
+Cluster Summary Report
+======================
+
+Mode: typology
+Scientific framing: discovered economic structures from unsupervised clustering.
+Validation only: attractivity_score used for interpretation, never as training target.
+
+Cluster 0 - Emerging low-capital zones
+  Zones: 29
+  Dominant sectors: Commerce (16%), Other (16%), Construction (15%), Healthcare (13%)
+  City distribution: Casablanca (72%), Mohammedia (10%), El Jadida (7%), Benslimane (7%)
+  Attractivity score (validation): mean=35.02, std=6.64, range=[20.86, 49.21]
+
+Cluster 1 - Emerging low-capital zones
+  Zones: 56
+  Dominant sectors: Construction (30%), Commerce (22%), Information Technology (16%), Other (11%)
+  City distribution: Casablanca (96%), Settat (4%)
+  Attractivity score (validation): mean=52.96, std=6.96, range=[36.67, 65.42]
+
+Cluster 2 - High-density capital hubs
+  Zones: 57
+  Dominant sectors: Commerce (10%), Other (10%), Construction (10%), Information Technology (10%)
+  City distribution: Casablanca (93%), Settat (4%), El Jadida (2%), Mohammedia (2%)
+  Attractivity score (validation): mean=61.27, std=7.30, range=[38.19, 76.95]

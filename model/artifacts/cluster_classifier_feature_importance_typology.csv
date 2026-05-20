@@ -1,0 +1,20 @@
+feature,importance
+num__active_rate,0.2011731430854494
+num__density_log,0.11389226259986535
+num__entity_count_real,0.11258088304042509
+num__n_sectors_present,0.1049174781750805
+num__entity_count_total,0.09952301914755754
+num__sarl_count,0.09283867899999317
+num__formal_ratio,0.06528206198217329
+num__sa_count,0.0429452993217355
+num__capital_max,0.03431102550865139
+num__cell_lon,0.03173968016041221
+num__capital_mean,0.027511727148898917
+num__cell_lat,0.027354816343748766
+num__sector_diversity,0.019844870785260753
+num__capital_median,0.011497266949411986
+cat__city_Casablanca,0.006464586766644924
+cat__city_Benslimane,0.00508725077318505
+cat__city_Mohammedia,0.0024234525064852344
+cat__city_El Jadida,0.00038637043336406466
+cat__city_Settat,0.00022612627165680702

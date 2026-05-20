@@ -1,0 +1,12 @@
+{
+  "mode": "typology",
+  "classifier_selected_model": "RandomForest",
+  "classifier_test_f1_macro": 0.9552042160737813,
+  "classifier_test_accuracy": 0.9655172413793104,
+  "generated_figures": [
+    "C:\\Users\\DELL Tac\\Desktop\\economic-attractivity-prediction-ml\\artifacts\\figures\\morocco_cluster_map_typology.png",
+    "C:\\Users\\DELL Tac\\Desktop\\economic-attractivity-prediction-ml\\artifacts\\figures\\morocco_density_heatmap_typology.png",
+    "C:\\Users\\DELL Tac\\Desktop\\economic-attractivity-prediction-ml\\artifacts\\figures\\morocco_capital_heatmap_typology.png",
+    "C:\\Users\\DELL Tac\\Desktop\\economic-attractivity-prediction-ml\\artifacts\\figures\\cluster_profile_heatmap_typology.png"
+  ]
+}

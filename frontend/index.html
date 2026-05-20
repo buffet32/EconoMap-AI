@@ -1,0 +1,126 @@
+
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="description" content="SmartAtlas - Plateforme intelligente de gestion d'entreprises avec outils IA et insights business."/>
+  <title>SmartAtlas</title>
+
+  <link rel="icon" href="/src/assets/logo.ico" />
+
+  <link rel="stylesheet" href="/dev/mdb.min.css" />
+
+</head>
+
+<body>
+  <!--Main Navigation-->
+  <div id="header-Mob">
+  <header>
+    <!-- Sidenav -->
+
+      <div  id="sidenav-1" data-color="secondary" class="sidenav" role="navigation" data-hidden="false" data-accordion="true" data-mdb-position="fixed">
+        <a class="d-flex justify-content-center py-4" href="/">
+          <div style="
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #8c54bc 0%, #4fd1c5 100%);
+            border-radius: 12px;
+            padding: 12px 24px;
+          ">
+            <span style="
+              font-size: 1.5rem;
+              font-weight: 700;
+              color: #fff;
+              letter-spacing: 1px;
+              font-family: 'ProductSans', sans-serif;
+            ">
+              Smart<span style="color: #ffd700;">Atlas</span>
+            </span>
+          </div>
+        </a>
+
+          <div id="sidenav"></div>
+
+      </div>
+    <!-- Sidenav -->
+
+
+  </header>
+</div>
+  <!--Main Navigation-->
+
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+
+
+
+
+  <!-- MDB -->
+  <script type="text/javascript" src="/dev/mdb.min.js"></script>
+
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+      const sidenav = document.getElementById("sidenav-1");
+      const instance = mdb.Sidenav.getInstance(sidenav);
+      const headerMob = document.getElementById('header-Mob');
+
+      let innerWidth = null;
+      let lastScrollTop = 0;
+
+      function redirectToPage(pageUrl) {
+        window.location.href = pageUrl;
+      }
+
+      const setMode = (e) => {
+        if (window.innerWidth === innerWidth) {
+          return;
+        }
+        innerWidth = window.innerWidth;
+        if (window.innerWidth < 992) {
+          instance.changeMode("over");
+          instance.hide();
+          headerMob.style.display = 'block';
+
+        } else {
+          instance.changeMode("side");
+          instance.show();
+          headerMob.style.display = 'none';
+ 
+        }
+      };
+
+      setMode();
+      window.addEventListener("resize", setMode);
+
+      // Add click event to sidenav items to retract sidenav
+      const sidenavItems = document.querySelectorAll('#sidenav-menu .sidenav-item');
+      sidenavItems.forEach(item => {
+        item.addEventListener('click', () => {
+          if (window.innerWidth < 992) {
+            instance.hide();
+            document.body.classList.remove('no-scroll');
+          }
+        });
+      });
+
+
+    });
+  </script>
+
+  <main class="container mt-5">
+    <section class="mb-5">
+      <div id="secteur-search" class="row g-3">
+        <!-- Les secteurs seront injectés ici par React -->
+      </div>
+    </section>
+    <section>
+      <div id="ville-list" class="row g-3">
+        <!-- Les entreprises par ville seront injectées ici par React -->
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

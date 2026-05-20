@@ -1,0 +1,275 @@
+{
+  "n_zones": 142,
+  "n_features_for_clustering": 12,
+  "features_used": [
+    "entity_count_real",
+    "entity_count_total",
+    "density_log",
+    "active_rate",
+    "capital_median",
+    "capital_mean",
+    "capital_max",
+    "sector_diversity",
+    "formal_ratio",
+    "sarl_count",
+    "sa_count",
+    "n_sectors_present"
+  ],
+  "mode": "anomaly",
+  "selected_strategy": "dbscan",
+  "selection_details": {
+    "reason": "DBSCAN selected because KMeans best split is not supervised-valid.",
+    "kmeans_silhouette": 0.8534236404300781,
+    "kmeans_valid_for_supervised": false,
+    "dbscan_valid_for_supervised": true,
+    "dbscan_quality_score": 0.5218483110503473
+  },
+  "kmeans": {
+    "search": [
+      {
+        "k": 2,
+        "silhouette": 0.8534236404300781,
+        "inertia": 1103.6294612909371,
+        "min_cluster_size": 1,
+        "valid_for_supervised": false
+      },
+      {
+        "k": 3,
+        "silhouette": 0.26561812579877125,
+        "inertia": 854.2317534606728,
+        "min_cluster_size": 1,
+        "valid_for_supervised": false
+      },
+      {
+        "k": 4,
+        "silhouette": 0.2960713989373407,
+        "inertia": 694.6549545498733,
+        "min_cluster_size": 1,
+        "valid_for_supervised": false
+      },
+      {
+        "k": 5,
+        "silhouette": 0.3334463447855113,
+        "inertia": 567.2456541087704,
+        "min_cluster_size": 1,
+        "valid_for_supervised": false
+      },
+      {
+        "k": 6,
+        "silhouette": 0.35319155033985533,
+        "inertia": 443.2327469397581,
+        "min_cluster_size": 1,
+        "valid_for_supervised": false
+      },
+      {
+        "k": 7,
+        "silhouette": 0.36882970898183565,
+        "inertia": 338.3660627691581,
+        "min_cluster_size": 1,
+        "valid_for_supervised": false
+      },
+      {
+        "k": 8,
+        "silhouette": 0.3720808097739452,
+        "inertia": 288.67580481760774,
+        "min_cluster_size": 1,
+        "valid_for_supervised": false
+      }
+    ],
+    "best": {
+      "k": 2,
+      "silhouette": 0.8534236404300781,
+      "inertia": 1103.6294612909371,
+      "min_cluster_size": 1,
+      "valid_for_supervised": false
+    }
+  },
+  "dbscan": {
+    "candidates": [
+      {
+        "eps": 0.4,
+        "min_samples": 3,
+        "n_clusters": 5,
+        "min_cluster_size": 3,
+        "noise_ratio": 0.8732394366197183,
+        "silhouette_core": 0.5777652308945261,
+        "quality_score": 0.0732378461697287
+      },
+      {
+        "eps": 0.6,
+        "min_samples": 3,
+        "n_clusters": 10,
+        "min_cluster_size": 3,
+        "noise_ratio": 0.49295774647887325,
+        "silhouette_core": 0.36404072551849426,
+        "quality_score": 0.1845840298403633
+      },
+      {
+        "eps": 0.6,
+        "min_samples": 4,
+        "n_clusters": 5,
+        "min_cluster_size": 4,
+        "noise_ratio": 0.6338028169014085,
+        "silhouette_core": 0.6584373658531509,
+        "quality_score": 0.2411179086222806
+      },
+      {
+        "eps": 0.6,
+        "min_samples": 6,
+        "n_clusters": 3,
+        "min_cluster_size": 6,
+        "noise_ratio": 0.8028169014084507,
+        "silhouette_core": 0.24041263488342274,
+        "quality_score": 0.04740530828687208
+      },
+      {
+        "eps": 0.8,
+        "min_samples": 3,
+        "n_clusters": 6,
+        "min_cluster_size": 3,
+        "noise_ratio": 0.2676056338028169,
+        "silhouette_core": 0.15174906666152246,
+        "quality_score": 0.11114016149857983
+      },
+      {
+        "eps": 0.8,
+        "min_samples": 4,
+        "n_clusters": 5,
+        "min_cluster_size": 4,
+        "noise_ratio": 0.3380281690140845,
+        "silhouette_core": 0.4181060025746603,
+        "quality_score": 0.27677439607054977
+      },
+      {
+        "eps": 0.8,
+        "min_samples": 6,
+        "n_clusters": 3,
+        "min_cluster_size": 6,
+        "noise_ratio": 0.4788732394366197,
+        "silhouette_core": 0.40683029102583657,
+        "quality_score": 0.21201015166135143
+      },
+      {
+        "eps": 0.8,
+        "min_samples": 8,
+        "n_clusters": 2,
+        "min_cluster_size": 8,
+        "noise_ratio": 0.5704225352112676,
+        "silhouette_core": 0.47494915470481963,
+        "quality_score": 0.20402745378164786
+      },
+      {
+        "eps": 1.0,
+        "min_samples": 3,
+        "n_clusters": 3,
+        "min_cluster_size": 5,
+        "noise_ratio": 0.18309859154929578,
+        "silhouette_core": 0.2755919525387524,
+        "quality_score": 0.22513145418658648
+      },
+      {
+        "eps": 1.0,
+        "min_samples": 4,
+        "n_clusters": 3,
+        "min_cluster_size": 5,
+        "noise_ratio": 0.20422535211267606,
+        "silhouette_core": 0.2817930626486103,
+        "quality_score": 0.2242437752062885
+      },
+      {
+        "eps": 1.0,
+        "min_samples": 6,
+        "n_clusters": 2,
+        "min_cluster_size": 11,
+        "noise_ratio": 0.29577464788732394,
+        "silhouette_core": 0.3048318216714993,
+        "quality_score": 0.21467029695176007
+      },
+      {
+        "eps": 1.0,
+        "min_samples": 8,
+        "n_clusters": 3,
+        "min_cluster_size": 11,
+        "noise_ratio": 0.33098591549295775,
+        "silhouette_core": 0.39480638946042623,
+        "quality_score": 0.26413103520239783
+      },
+      {
+        "eps": 1.2,
+        "min_samples": 3,
+        "n_clusters": 2,
+        "min_cluster_size": 5,
+        "noise_ratio": 0.16901408450704225,
+        "silhouette_core": 0.5853724835754137,
+        "quality_score": 0.48643628916830156
+      },
+      {
+        "eps": 1.2,
+        "min_samples": 4,
+        "n_clusters": 2,
+        "min_cluster_size": 5,
+        "noise_ratio": 0.16901408450704225,
+        "silhouette_core": 0.5853724835754137,
+        "quality_score": 0.48643628916830156
+      },
+      {
+        "eps": 1.5,
+        "min_samples": 3,
+        "n_clusters": 2,
+        "min_cluster_size": 5,
+        "noise_ratio": 0.11267605633802817,
+        "silhouette_core": 0.5639983122947064,
+        "quality_score": 0.5004492066840353
+      },
+      {
+        "eps": 1.5,
+        "min_samples": 4,
+        "n_clusters": 2,
+        "min_cluster_size": 5,
+        "noise_ratio": 0.11971830985915492,
+        "silhouette_core": 0.5678479823760137,
+        "quality_score": 0.4998661816690262
+      },
+      {
+        "eps": 2.0,
+        "min_samples": 3,
+        "n_clusters": 3,
+        "min_cluster_size": 4,
+        "noise_ratio": 0.04225352112676056,
+        "silhouette_core": 0.5448710306555097,
+        "quality_score": 0.5218483110503473
+      },
+      {
+        "eps": 2.0,
+        "min_samples": 4,
+        "n_clusters": 3,
+        "min_cluster_size": 4,
+        "noise_ratio": 0.04225352112676056,
+        "silhouette_core": 0.5448710306555097,
+        "quality_score": 0.5218483110503473
+      }
+    ],
+    "best": {
+      "eps": 2.0,
+      "min_samples": 3,
+      "n_clusters": 3,
+      "min_cluster_size": 4,
+      "noise_ratio": 0.04225352112676056,
+      "silhouette_core": 0.5448710306555097,
+      "quality_score": 0.5218483110503473
+    }
+  },
+  "typology_models": null,
+  "cluster_counts": {
+    "-1": 6,
+    "0": 127,
+    "1": 5,
+    "2": 4
+  },
+  "notes": [
+    "attractivity_score is excluded from clustering features.",
+    "attractivity_score remains in output only for post-hoc validation.",
+    "Clustering selection enforces min cluster size >= 3 for supervised readiness when possible.",
+    "Use mode='typology' for balanced economic profiles and mode='anomaly' for atypical pocket detection."
+  ]
+}

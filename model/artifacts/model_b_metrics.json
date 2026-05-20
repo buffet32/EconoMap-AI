@@ -1,0 +1,38 @@
+{
+  "model": "XGBoost",
+  "test_accuracy": 0.2704,
+  "test_f1_weighted": 0.2606,
+  "test_f1_macro": 0.253,
+  "cv_results": {
+    "RandomForest": {
+      "cv_f1_macro_mean": 0.27342693809798363,
+      "cv_f1_macro_std": 0.027540588154392125,
+      "cv_acc_mean": 0.2953505811773528
+    },
+    "XGBoost": {
+      "cv_f1_macro_mean": 0.29712534353432846,
+      "cv_f1_macro_std": 0.014580985156863175,
+      "cv_acc_mean": 0.2890763654543182
+    },
+    "LightGBM": {
+      "cv_f1_macro_mean": 0.2949663499993883,
+      "cv_f1_macro_std": 0.017614090125687442,
+      "cv_acc_mean": 0.2938132733408324
+    }
+  },
+  "classes": [
+    "Agriculture",
+    "Commerce",
+    "Construction",
+    "Education",
+    "Finance",
+    "Healthcare",
+    "Information Technology",
+    "Manufacturing",
+    "Other",
+    "Professional Services",
+    "Real Estate",
+    "Tourism & Hospitality",
+    "Transport"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "rmse": 1.7988,
+  "mae": 0.8113,
+  "r2": 0.9885,
+  "max_error": 18.6638,
+  "mean_bias": -0.1945,
+  "residual_std": 1.7883,
+  "residual_p5": -1.3429,
+  "residual_p95": 1.5205
+}

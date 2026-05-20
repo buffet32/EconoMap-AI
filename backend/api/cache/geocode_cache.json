@@ -1,0 +1,854 @@
+{
+  "32.239464_-7.958947": {
+    "zone_name": "Ben Guerir ابن جرير",
+    "district": "Pachalik de Benguerir باشوية ابن جرير",
+    "region_name": "Marrakech-Safi ⵎⵕⵕⴰⴽⵛ-ⴰⵙⴼⵉ مراكش-أسفي",
+    "display_name": "Ben Guerir ابن جرير - Ben Guerir ابن جرير"
+  },
+  "32.250000_-8.533333": {
+    "zone_name": "Youssoufia ⵢⵓⵙⴼⵉⵢⴰ اليوسفية",
+    "district": "Pachalik de Youssoufia باشوية اليوسفية",
+    "region_name": "Marrakech-Safi ⵎⵕⵕⴰⴽⵛ-ⴰⵙⴼⵉ مراكش-أسفي",
+    "display_name": "Youssoufia ⵢⵓⵙⴼⵉⵢⴰ اليوسفية - Youssoufia ⵢⵓⵙⴼⵉⵢⴰ اليوسفية"
+  },
+  "32.286308_-7.959286": {
+    "zone_name": "caïdat de Labrikiyne قيادة البريكيين",
+    "district": "Cercle de Rehamna",
+    "region_name": "Marrakech-Safi ⵎⵕⵕⴰⴽⵛ-ⴰⵙⴼⵉ مراكش-أسفي",
+    "display_name": "caïdat de Labrikiyne قيادة البريكيين - Oulad Hassoune Hamri أولاد حسون حمري"
+  },
+  "32.650000_-8.433333": {
+    "zone_name": "Sidi Bennour ⵙⵉⴷⵉ ⴱⵏⵏⵓⵕ سيدي بنور",
+    "district": "Pachalik de Sidi Bennour باشوية سيدي بنور",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Sidi Bennour ⵙⵉⴷⵉ ⴱⵏⵏⵓⵕ سيدي بنور - Sidi Bennour ⵙⵉⴷⵉ ⴱⵏⵏⵓⵕ سيدي بنور"
+  },
+  "32.877960_-6.921472": {
+    "zone_name": "Quartier Hanaa 1",
+    "district": "Pachalik de Khouribga",
+    "region_name": "Béni Mellal-Khénifra ⴰⵢⵜ ⵎⵍⵍⴰⵍ-ⵅⵏⵉⴼⵕⴰ بني ملال-خنيفرة",
+    "display_name": "Quartier Hanaa 1 - Khouribga ⵅⵯⵔⵉⴱⴳⴰ خريبكة"
+  },
+  "32.883333_-6.900000": {
+    "zone_name": "Hay Iqbal",
+    "district": "Pachalik de Khouribga",
+    "region_name": "Béni Mellal-Khénifra ⴰⵢⵜ ⵎⵍⵍⴰⵍ-ⵅⵏⵉⴼⵕⴰ بني ملال-خنيفرة",
+    "display_name": "Hay Iqbal - Khouribga ⵅⵯⵔⵉⴱⴳⴰ خريبكة"
+  },
+  "32.898190_-6.925244": {
+    "zone_name": "Hay Fath 1",
+    "district": "Pachalik de Khouribga",
+    "region_name": "Béni Mellal-Khénifra ⴰⵢⵜ ⵎⵍⵍⴰⵍ-ⵅⵏⵉⴼⵕⴰ بني ملال-خنيفرة",
+    "display_name": "Hay Fath 1 - Khouribga ⵅⵯⵔⵉⴱⴳⴰ خريبكة"
+  },
+  "32.951731_-8.218351": {
+    "zone_name": "Oulad Frej ⵡⵍⴰⴷ ⴼⵕⵊ أولاد فريج",
+    "district": "Cercle de Sidi Smail دائرة سيدي إسماعيل",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Oulad Frej ⵡⵍⴰⴷ ⴼⵕⵊ أولاد فريج - Oulad Frej ⵡⵍⴰⴷ ⴼⵕⵊ أولاد فريج"
+  },
+  "32.997941_-7.604816": {
+    "zone_name": "Hay Sidi Abdelkarim",
+    "district": "Pachalik de Settat باشوية سطات",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Hay Sidi Abdelkarim - Settat ⵥⵟⵟⴰⵟ سطات"
+  },
+  "32.993942_-7.623529": {
+    "zone_name": "Quartier Essmaâla حي السماعلة",
+    "district": "Pachalik de Settat باشوية سطات",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Quartier Essmaâla حي السماعلة - Settat ⵥⵟⵟⴰⵟ سطات"
+  },
+  "33.001374_-7.617374": {
+    "zone_name": "Hay Mabrouka",
+    "district": "Pachalik de Settat باشوية سطات",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Hay Mabrouka - Settat ⵥⵟⵟⴰⵟ سطات"
+  },
+  "33.005450_-7.631115": {
+    "zone_name": "Hay Kassam",
+    "district": "Pachalik de Settat باشوية سطات",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Hay Kassam - Settat ⵥⵟⵟⴰⵟ سطات"
+  },
+  "33.229323_-8.499357": {
+    "zone_name": "Coop. Ennajd",
+    "district": "Province d'El Jadida إقليم الجديدة",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Coop. Ennajd - pachalik d'El Jadida ⵍⵊⴰⴷⵉⴷⴰ الجديدة"
+  },
+  "33.233333_-8.500000": {
+    "zone_name": "Résidence Al Kadissia",
+    "district": "Province d'El Jadida إقليم الجديدة",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Résidence Al Kadissia - pachalik d'El Jadida ⵍⵊⴰⴷⵉⴷⴰ الجديدة"
+  },
+  "33.238720_-8.517361": {
+    "zone_name": "Lot. Melk Hazmi 2",
+    "district": "Province d'El Jadida إقليم الجديدة",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Lot. Melk Hazmi 2 - pachalik d'El Jadida ⵍⵊⴰⴷⵉⴷⴰ الجديدة"
+  },
+  "33.231990_-8.549604": {
+    "zone_name": "Résidence Dalia",
+    "district": "Cercle d'El Jadida دائرة الجديدة",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Résidence Dalia - Moulay Abdellah ⵎⵓⵍⴰⵢ ⵄⴱⴷⵍⵍⴰ ⴰⵎⵖⴰⵕ مولاي عبد الله"
+  },
+  "33.247976_-8.502173": {
+    "zone_name": "Lot. Ennouste",
+    "district": "Province d'El Jadida إقليم الجديدة",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Lot. Ennouste - pachalik d'El Jadida ⵍⵊⴰⴷⵉⴷⴰ الجديدة"
+  },
+  "33.254174_-8.508038": {
+    "zone_name": "Derb Lferran (Souika)",
+    "district": "Province d'El Jadida إقليم الجديدة",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Derb Lferran (Souika) - pachalik d'El Jadida ⵍⵊⴰⴷⵉⴷⴰ الجديدة"
+  },
+  "33.245346_-8.526898": {
+    "zone_name": "L'Océan",
+    "district": "Province d'El Jadida إقليم الجديدة",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "L'Océan - pachalik d'El Jadida ⵍⵊⴰⴷⵉⴷⴰ الجديدة"
+  },
+  "33.266667_-7.583333": {
+    "zone_name": "Quartier Souk lakdim حي سوق القديم",
+    "district": "Pachalik de Berrechid باشوية برشيد",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Quartier Souk lakdim حي سوق القديم - Berrechid برشيد"
+  },
+  "33.269232_-7.588969": {
+    "zone_name": "Derb Tahiri درب الطاهري",
+    "district": "Pachalik de Berrechid باشوية برشيد",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Derb Tahiri درب الطاهري - Berrechid برشيد"
+  },
+  "33.260300_-8.505300": {
+    "zone_name": "Sidi Daoui",
+    "district": "Province d'El Jadida إقليم الجديدة",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Sidi Daoui - pachalik d'El Jadida ⵍⵊⴰⴷⵉⴷⴰ الجديدة"
+  },
+  "33.259039_-8.510092": {
+    "zone_name": "Rue de France",
+    "district": "Province d'El Jadida إقليم الجديدة",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Rue de France - pachalik d'El Jadida ⵍⵊⴰⴷⵉⴷⴰ الجديدة"
+  },
+  "33.281557_-7.228320": {
+    "zone_name": "El Gara ⵍⴳⴰⵕⴰ الكارة",
+    "district": "Pachalik de El Gara باشوية الكارة",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "El Gara ⵍⴳⴰⵕⴰ الكارة - El Gara ⵍⴳⴰⵕⴰ الكارة"
+  },
+  "33.270982_-7.584739": {
+    "zone_name": "Derb Arlaud درب أرلو",
+    "district": "Pachalik de Berrechid باشوية برشيد",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Derb Arlaud درب أرلو - Berrechid برشيد"
+  },
+  "33.282881_-8.335364": {
+    "zone_name": "Azemmour أزمور",
+    "district": "Pachalik d'Azemmour",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Azemmour أزمور - Azemmour أزمور"
+  },
+  "33.290059_-8.343410": {
+    "zone_name": "Azemmour أزمور",
+    "district": "Pachalik d'Azemmour",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Azemmour أزمور - Azemmour أزمور"
+  },
+  "33.361111_-7.611389": {
+    "zone_name": "Nouaceur ⵏⵡⴰⵚⵕ النواصر",
+    "district": "Pachalik de Nouaceur باشوية النواصر",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Nouaceur ⵏⵡⴰⵚⵕ النواصر - Nouaceur ⵏⵡⴰⵚⵕ النواصر"
+  },
+  "33.374634_-7.541537": {
+    "zone_name": "Deroua ⴷⵔⵡⴰ الدروة",
+    "district": "Pachalik de Deroua",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Deroua ⴷⵔⵡⴰ الدروة - Deroua ⴷⵔⵡⴰ الدروة"
+  },
+  "33.371772_-7.997957": {
+    "zone_name": "Bir Jdid ⴱⵉⵔ ⵊⴷⵉⴷ البير الجديد",
+    "district": "Pachalik de Bir Jdid",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Bir Jdid ⴱⵉⵔ ⵊⴷⵉⴷ البير الجديد - Bir Jdid ⴱⵉⵔ ⵊⴷⵉⴷ البير الجديد"
+  },
+  "33.383814_-7.577461": {
+    "zone_name": "Nouaceur ⵏⵡⴰⵚⵕ النواصر",
+    "district": "Pachalik de Nouaceur باشوية النواصر",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Nouaceur ⵏⵡⴰⵚⵕ النواصر - Nouaceur ⵏⵡⴰⵚⵕ النواصر"
+  },
+  "33.414212_-7.662719": {
+    "zone_name": "Oulad Salah ⵡⵍⴰⴷ ⵚⴰⵍⵃ أولاد صالح",
+    "district": "Cercle de Bouskoura دائرة بوسكورة",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Oulad Salah ⵡⵍⴰⴷ ⵚⴰⵍⵃ أولاد صالح - Victoria ⴼⵉⵛⵜⵓⵔⵉⴰ فكتوريا"
+  },
+  "33.422836_-7.853125": {
+    "zone_name": "Had Soualem حـد الـسـوالـم",
+    "district": "Pachalik de Had Soualem باشوية حد السوالم",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Had Soualem حـد الـسـوالـم - Had Soualem حـد الـسـوالـم"
+  },
+  "33.451494_-7.514992": {
+    "zone_name": "Médiouna مديونة",
+    "district": "Pachalik de Médiouna باشوية مديونة",
+    "region_name": "Pachalik de Médiouna باشوية مديونة",
+    "display_name": "Médiouna مديونة - Médiouna مديونة"
+  },
+  "33.455998_-7.521093": {
+    "zone_name": "Médiouna مديونة",
+    "district": "Pachalik de Médiouna باشوية مديونة",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Médiouna مديونة - Médiouna مديونة"
+  },
+  "33.449332_-7.648521": {
+    "zone_name": "Bouskoura بوسكورة",
+    "district": "Pachalik de Bouskoura باشوية بوسكورة",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Bouskoura بوسكورة - Bouskoura بوسكورة"
+  },
+  "33.460578_-7.999282": {
+    "zone_name": "Sidi Rahal Chatai ⵙⵉⴷⵉ ⵕⵃⵃⴰⵍ سيدي رحال",
+    "district": "Pachalik de Sidi Rahal Chatai",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Sidi Rahal Chatai ⵙⵉⴷⵉ ⵕⵃⵃⴰⵍ سيدي رحال - Sidi Rahal Chatai ⵙⵉⴷⵉ ⵕⵃⵃⴰⵍ سيدي رحال الشاطئ"
+  },
+  "33.499201_-7.179026": {
+    "zone_name": "Caïdat de Fdalate قيادة فضالات",
+    "district": "Cercle de Benslimane دائرة بن سليمان",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Caïdat de Fdalate قيادة فضالات - Oulad Yahya Louta ⵡⵍⴰⴷ ⵉⵃⵢⴰ ⵍⵓⵟⴰ ولاد يحيى لوطا"
+  },
+  "33.497193_-7.660711": {
+    "zone_name": "Arrondissement d'Aïn Chock مقاطعة عين الشق",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Arrondissement d'Aïn Chock مقاطعة عين الشق - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.500127_-7.628361": {
+    "zone_name": "Arrondissement d'Aïn Chock مقاطعة عين الشق",
+    "district": "Pachalik de Bouskoura باشوية بوسكورة",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Arrondissement d'Aïn Chock مقاطعة عين الشق - Bouskoura بوسكورة"
+  },
+  "33.508966_-7.657671": {
+    "zone_name": "Arrondissement d'Aïn Chock مقاطعة عين الشق",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Arrondissement d'Aïn Chock مقاطعة عين الشق - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.503089_-7.800367": {
+    "zone_name": "caïdat de Oulad Azzouz",
+    "district": "Cercle de Bouskoura دائرة بوسكورة",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "caïdat de Oulad Azzouz - Oulad Azzouz ⵡⵍⴰⴷ ⵄⵣⵣⵓⵣ أولاد عزوز"
+  },
+  "33.524046_-7.616726": {
+    "zone_name": "Arrondissement d'Aïn Chock مقاطعة عين الشق",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Arrondissement d'Aïn Chock مقاطعة عين الشق - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.517567_-7.632536": {
+    "zone_name": "Sidi Maârouf سيدي معروف",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Sidi Maârouf سيدي معروف - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.524820_-7.650480": {
+    "zone_name": "Sidi Maârouf سيدي معروف",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Sidi Maârouf سيدي معروف - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.519134_-7.659806": {
+    "zone_name": "Lissasfa ليساسفة",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Lissasfa ليساسفة - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.515224_-7.817848": {
+    "zone_name": "Dar Bouazza ⴷⴰⵕ ⴱⵓⵄⵣⵣⴰ دار بوعزة",
+    "district": "Pachalik de Dar Bouazza باشوية دار بوعزة",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Dar Bouazza ⴷⴰⵕ ⴱⵓⵄⵣⵣⴰ دار بوعزة - Dar Bouazza ⴷⴰⵕ ⴱⵓⵄⵣⵣⴰ دار بوعزة"
+  },
+  "33.538578_-7.417297": {
+    "zone_name": "Sidi Hajjaj Oued Hassar ⵙⵉⴷⵉ ⵃⵊⵊⴰⵊ ⵡⴰⴷ ⵃⵚⵚⴰⵕ سيدي حجاج واد حصار",
+    "district": "Pachalik de Sidi Hajjaj Oued Hassar",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Sidi Hajjaj Oued Hassar ⵙⵉⴷⵉ ⵃⵊⵊⴰⵊ ⵡⴰⴷ ⵃⵚⵚⴰⵕ سيدي حجاج واد حصار - Sidi Hajjaj Oued Hassar ⵙⵉⴷⵉ ⵃⵊⵊⴰⵊ ⵡⴰⴷ ⵃⵚⵚⵕ سيدي حجاج واد حصار"
+  },
+  "33.538757_-7.552806": {
+    "zone_name": "Préfecture d'arrondissements de Ben M'sick عمالة مقاطعات ابن مسيك",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Préfecture d'arrondissements de Ben M'sick عمالة مقاطعات ابن مسيك - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.538074_-7.567679": {
+    "zone_name": "Préfecture d'arrondissements de Ben M'sick عمالة مقاطعات ابن مسيك",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Préfecture d'arrondissements de Ben M'sick عمالة مقاطعات ابن مسيك - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.533333_-7.583333": {
+    "zone_name": "Arrondissement d'Aïn Chock مقاطعة عين الشق",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Arrondissement d'Aïn Chock مقاطعة عين الشق - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.535722_-7.593484": {
+    "zone_name": "Arrondissement d'Aïn Chock مقاطعة عين الشق",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Arrondissement d'Aïn Chock مقاطعة عين الشق - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.532723_-7.617047": {
+    "zone_name": "Californie كاليفورنيا",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Californie كاليفورنيا - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.527577_-7.647096": {
+    "zone_name": "Sidi Maârouf سيدي معروف",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Sidi Maârouf سيدي معروف - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.532301_-7.673400": {
+    "zone_name": "Lissasfa ليساسفة",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Lissasfa ليساسفة - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.528740_-7.678610": {
+    "zone_name": "Lissasfa ليساسفة",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Lissasfa ليساسفة - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.535890_-7.762831": {
+    "zone_name": "Errahma ⵕⵕⵃⵎⴰ الرحمة",
+    "district": "Pachalik de Dar Bouazza باشوية دار بوعزة",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Errahma ⵕⵕⵃⵎⴰ الرحمة - Dar Bouazza ⴷⴰⵕ ⴱⵓⵄⵣⵣⴰ دار بوعزة"
+  },
+  "33.550139_-7.468336": {
+    "zone_name": "Tit Mellil تيط مليل",
+    "district": "Pachalik de Tit Mellil",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Tit Mellil تيط مليل - Tit Mellil تيط مليل"
+  },
+  "33.551321_-7.486007": {
+    "zone_name": "Tit Mellil تيط مليل",
+    "district": "Pachalik de Tit Mellil",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Tit Mellil تيط مليل - Tit Mellil تيط مليل"
+  },
+  "33.541008_-7.528538": {
+    "zone_name": "Lahraouiyine ⵍⵀⵔⴰⵡⵉⵢⵉⵏ الهراويين",
+    "district": "Pachalik de Lahraouyine",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Lahraouiyine ⵍⵀⵔⴰⵡⵉⵢⵉⵏ الهراويين - Lahraouyine الهراويين"
+  },
+  "33.548037_-7.549921": {
+    "zone_name": "Sidi Othmane ⵙⵉⴷⵉ ⵄⵓⵜⵎⴰⵏ سيدي عثمان",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Sidi Othmane ⵙⵉⴷⵉ ⵄⵓⵜⵎⴰⵏ سيدي عثمان - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.548870_-7.567631": {
+    "zone_name": "Préfecture d'arrondissements de Ben M'sick عمالة مقاطعات ابن مسيك",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Préfecture d'arrondissements de Ben M'sick عمالة مقاطعات ابن مسيك - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.546950_-7.575181": {
+    "zone_name": "Préfecture d'arrondissements de Ben M'sick عمالة مقاطعات ابن مسيك",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Préfecture d'arrondissements de Ben M'sick عمالة مقاطعات ابن مسيك - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.547838_-7.594417": {
+    "zone_name": "Arrondissement d'Aïn Chock مقاطعة عين الشق",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "display_name": "Arrondissement d'Aïn Chock مقاطعة عين الشق - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.549902_-7.616473": {
+    "zone_name": "Californie كاليفورنيا",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Californie كاليفورنيا - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.542710_-7.639420": {
+    "zone_name": "Californie كاليفورنيا",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Californie كاليفورنيا - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.551260_-7.673708": {
+    "zone_name": "El Oulfa ⵍⵡⴰⵍⴼⴰ الولفة",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "El Oulfa ⵍⵡⴰⵍⴼⴰ الولفة - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.549377_-7.685023": {
+    "zone_name": "El Oulfa ⵍⵡⴰⵍⴼⴰ الولفة",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "El Oulfa ⵍⵡⴰⵍⴼⴰ الولفة - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.542271_-7.702427": {
+    "zone_name": "El Oulfa ⵍⵡⴰⵍⴼⴰ الولفة",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "El Oulfa ⵍⵡⴰⵍⴼⴰ الولفة - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.544395_-7.719398": {
+    "zone_name": "Préfecture d'arrondissement de Hay Hassani عمالة مقاطعة الحي الحسني",
+    "district": "Pachalik de Dar Bouazza باشوية دار بوعزة",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Préfecture d'arrondissement de Hay Hassani عمالة مقاطعة الحي الحسني - Dar Bouazza ⴷⴰⵕ ⴱⵓⵄⵣⵣⴰ دار بوعزة"
+  },
+  "33.557174_-7.484752": {
+    "zone_name": "Tit Mellil تيط مليل",
+    "district": "Pachalik de Tit Mellil",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Tit Mellil تيط مليل - Tit Mellil تيط مليل"
+  },
+  "33.567386_-7.510525": {
+    "zone_name": "Sidi Moumen ⵙⵉⴷⵉ ⵎⵓⵎⴰⵏ سيدي مومن",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Sidi Moumen ⵙⵉⴷⵉ ⵎⵓⵎⴰⵏ سيدي مومن - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.555903_-7.552163": {
+    "zone_name": "Sidi Othmane ⵙⵉⴷⵉ ⵄⵓⵜⵎⴰⵏ سيدي عثمان",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Sidi Othmane ⵙⵉⴷⵉ ⵄⵓⵜⵎⴰⵏ سيدي عثمان - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.565144_-7.563610": {
+    "zone_name": "Sidi Othmane ⵙⵉⴷⵉ ⵄⵓⵜⵎⴰⵏ سيدي عثمان",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Sidi Othmane ⵙⵉⴷⵉ ⵄⵓⵜⵎⴰⵏ سيدي عثمان - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.564190_-7.582900": {
+    "zone_name": "Arrondissement d'Al Fida مقاطعة الفداء",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Arrondissement d'Al Fida مقاطعة الفداء - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.563680_-7.595563": {
+    "zone_name": "Al Fida ⵍⴼⵉⴷⴰ الفداء",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Al Fida ⵍⴼⵉⴷⴰ الفداء - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.562433_-7.609675": {
+    "zone_name": "Al Fida ⵍⴼⵉⴷⴰ الفداء",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Al Fida ⵍⴼⵉⴷⴰ الفداء - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.561425_-7.635680": {
+    "zone_name": "L'Oasis الوازيس",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "L'Oasis الوازيس - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.565931_-7.644550": {
+    "zone_name": "Ferme Bretonne",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Ferme Bretonne - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.556720_-7.667043": {
+    "zone_name": "Casa Anfa",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Casa Anfa - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.556424_-7.679908": {
+    "zone_name": "El Oulfa ⵍⵡⴰⵍⴼⴰ الولفة",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "El Oulfa ⵍⵡⴰⵍⴼⴰ الولفة - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.574167_-7.529722": {
+    "zone_name": "Arrondissement de Sidi Moumen مقاطعة سيدي مومن",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Arrondissement de Sidi Moumen مقاطعة سيدي مومن - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.573358_-7.551358": {
+    "zone_name": "Moulay Rachid ⵎⵓⵍⴰⵢ ⵔⵛⵉⴷ مولاي رشيد",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Moulay Rachid ⵎⵓⵍⴰⵢ ⵔⵛⵉⴷ مولاي رشيد - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.569145_-7.555595": {
+    "zone_name": "Moulay Rachid ⵎⵓⵍⴰⵢ ⵔⵛⵉⴷ مولاي رشيد",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Moulay Rachid ⵎⵓⵍⴰⵢ ⵔⵛⵉⴷ مولاي رشيد - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.570022_-7.583747": {
+    "zone_name": "Arrondissement d'Al Fida مقاطعة الفداء",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Arrondissement d'Al Fida مقاطعة الفداء - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.573254_-7.597602": {
+    "zone_name": "Mers Sultan ⵎⴰⵔⵙ ⵙⵓⵍⵟⴰⵏ مرس السلطان",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Mers Sultan ⵎⴰⵔⵙ ⵙⵓⵍⵟⴰⵏ مرس السلطان - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.573978_-7.615117": {
+    "zone_name": "Mers Sultan ⵎⴰⵔⵙ ⵙⵓⵍⵟⴰⵏ مرس السلطان",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Mers Sultan ⵎⴰⵔⵙ ⵙⵓⵍⵟⴰⵏ مرس السلطان - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.577100_-7.626091": {
+    "zone_name": "Palmiers النخيل",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Palmiers النخيل - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.572529_-7.645361": {
+    "zone_name": "Berger بيرجي",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Berger بيرجي - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.573700_-7.667535": {
+    "zone_name": "Hay El Hana حي الهناء",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Hay El Hana حي الهناء - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.569643_-7.683468": {
+    "zone_name": "El Oulfa ⵍⵡⴰⵍⴼⴰ الولفة",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "El Oulfa ⵍⵡⴰⵍⴼⴰ الولفة - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.575699_-7.707033": {
+    "zone_name": "Arrondissement d'Anfa مقاطعة أنفا",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Arrondissement d'Anfa مقاطعة أنفا - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.588406_-7.498113": {
+    "zone_name": "Sidi Moumen ⵙⵉⴷⵉ ⵎⵓⵎⴰⵏ سيدي مومن",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Sidi Moumen ⵙⵉⴷⵉ ⵎⵓⵎⴰⵏ سيدي مومن - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.582267_-7.508904": {
+    "zone_name": "Sidi Moumen ⵙⵉⴷⵉ ⵎⵓⵎⴰⵏ سيدي مومن",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Sidi Moumen ⵙⵉⴷⵉ ⵎⵓⵎⴰⵏ سيدي مومن - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.587208_-7.524116": {
+    "zone_name": "Sidi Moumen ⵙⵉⴷⵉ ⵎⵓⵎⴰⵏ سيدي مومن",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Sidi Moumen ⵙⵉⴷⵉ ⵎⵓⵎⴰⵏ سيدي مومن - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.585180_-7.548406": {
+    "zone_name": "Hay Mohammadi ⵃⴰⵢ ⵎⵓⵃⴰⵎⴰⴷⵉ حي المحمدي",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Hay Mohammadi ⵃⴰⵢ ⵎⵓⵃⴰⵎⴰⴷⵉ حي المحمدي - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.586466_-7.560805": {
+    "zone_name": "Hay Mohammadi ⵃⴰⵢ ⵎⵓⵃⴰⵎⴰⴷⵉ حي المحمدي",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Hay Mohammadi ⵃⴰⵢ ⵎⵓⵃⴰⵎⴰⴷⵉ حي المحمدي - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.586620_-7.579770": {
+    "zone_name": "Roches-Noires ⵙⵓⵅⵓⵔ ⵙⴰⵡⴷⴰ الصخور السوداء",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Roches-Noires ⵙⵓⵅⵓⵔ ⵙⴰⵡⴷⴰ الصخور السوداء - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.591079_-7.600250": {
+    "zone_name": "Roches-Noires ⵙⵓⵅⵓⵔ ⵙⴰⵡⴷⴰ الصخور السوداء",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Roches-Noires ⵙⵓⵅⵓⵔ ⵙⴰⵡⴷⴰ الصخور السوداء - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.586944_-7.611111": {
+    "zone_name": "Ancienne Medina المدينة القديمة",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Ancienne Medina المدينة القديمة - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.588317_-7.633047": {
+    "zone_name": "Gauthier غوتيي",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Gauthier غوتيي - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.589700_-7.645130": {
+    "zone_name": "Racine راسين",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Racine راسين - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.587300_-7.666085": {
+    "zone_name": "Anfa Supérieur أنفا العليا",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Anfa Supérieur أنفا العليا - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.592713_-7.677567": {
+    "zone_name": "Ain Diab عين الذئاب",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Ain Diab عين الذئاب - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.601663_-7.427536": {
+    "zone_name": "Chellalate ⵛⵍⵍⴰⵍⴰⵜ الشلالات",
+    "district": "Pachalik de Chellalate",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Chellalate ⵛⵍⵍⴰⵍⴰⵜ الشلالات - caïdat de Zenata"
+  },
+  "33.599474_-7.469188": {
+    "zone_name": "Arrondissement de Sidi Moumen مقاطعة سيدي مومن",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Arrondissement de Sidi Moumen مقاطعة سيدي مومن - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.600357_-7.484310": {
+    "zone_name": "Arrondissement de Sidi Moumen مقاطعة سيدي مومن",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Arrondissement de Sidi Moumen مقاطعة سيدي مومن - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.605108_-7.514042": {
+    "zone_name": "Sidi Bernoussi ⵙⵉⴷⵉ ⵍⴱⵔⵏⵓⵚⵉ سيدي البرنوصي",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "display_name": "Sidi Bernoussi ⵙⵉⴷⵉ ⵍⴱⵔⵏⵓⵚⵉ سيدي البرنوصي - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.605272_-7.525210": {
+    "zone_name": "Arrondissement d'Aïn Sebaâ مقاطعة عين السبع",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Arrondissement d'Aïn Sebaâ مقاطعة عين السبع - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.601564_-7.545368": {
+    "zone_name": "Arrondissement d'Aïn Sebaâ مقاطعة عين السبع",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Arrondissement d'Aïn Sebaâ مقاطعة عين السبع - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.600951_-7.559921": {
+    "zone_name": "Arrondissement d'Aïn Sebaâ مقاطعة عين السبع",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Arrondissement d'Aïn Sebaâ مقاطعة عين السبع - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.600010_-7.583060": {
+    "zone_name": "Roches-Noires ⵙⵓⵅⵓⵔ ⵙⴰⵡⴷⴰ الصخور السوداء",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Roches-Noires ⵙⵓⵅⵓⵔ ⵙⴰⵡⴷⴰ الصخور السوداء - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.596120_-7.594348": {
+    "zone_name": "Roches-Noires ⵙⵓⵅⵓⵔ ⵙⴰⵡⴷⴰ الصخور السوداء",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Roches-Noires ⵙⵓⵅⵓⵔ ⵙⴰⵡⴷⴰ الصخور السوداء - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.596457_-7.615478": {
+    "zone_name": "Ancienne Medina المدينة القديمة",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Ancienne Medina المدينة القديمة - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.599330_-7.633514": {
+    "zone_name": "Sour Jdid السور الجديد",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Sour Jdid السور الجديد - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.599089_-7.644800": {
+    "zone_name": "Bourgogne بورغون",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Bourgogne بورغون - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.597358_-7.670326": {
+    "zone_name": "Anfa Supérieur أنفا العليا",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Anfa Supérieur أنفا العليا - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.613439_-7.121855": {
+    "zone_name": "Benslimane ⴱⴰⵏⵙⵍⵉⵎⴰⵏ بن سليمان",
+    "district": "Pachalik de Benslimane باشوية بن سليمان",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Benslimane ⴱⴰⵏⵙⵍⵉⵎⴰⵏ بن سليمان - Benslimane بن سليمان"
+  },
+  "33.619122_-7.481327": {
+    "zone_name": "Sidi Bernoussi ⵙⵉⴷⵉ ⵍⴱⵔⵏⵓⵚⵉ سيدي البرنوصي",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Sidi Bernoussi ⵙⵉⴷⵉ ⵍⴱⵔⵏⵓⵚⵉ سيدي البرنوصي - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.617742_-7.484749": {
+    "zone_name": "Arrondissement de Sidi Bernoussi مقاطعة سيدي البرنوصي",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Arrondissement de Sidi Bernoussi مقاطعة سيدي البرنوصي - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.610869_-7.504093": {
+    "zone_name": "Sidi Bernoussi ⵙⵉⴷⵉ ⵍⴱⵔⵏⵓⵚⵉ سيدي البرنوصي",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Sidi Bernoussi ⵙⵉⴷⵉ ⵍⴱⵔⵏⵓⵚⵉ سيدي البرنوصي - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.611775_-7.528789": {
+    "zone_name": "Arrondissement d'Aïn Sebaâ مقاطعة عين السبع",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Arrondissement d'Aïn Sebaâ مقاطعة عين السبع - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.616318_-7.542721": {
+    "zone_name": "Arrondissement d'Aïn Sebaâ مقاطعة عين السبع",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Arrondissement d'Aïn Sebaâ مقاطعة عين السبع - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.609111_-7.558850": {
+    "zone_name": "Arrondissement d'Aïn Sebaâ مقاطعة عين السبع",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Arrondissement d'Aïn Sebaâ مقاطعة عين السبع - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.622898_-7.126718": {
+    "zone_name": "Benslimane ⴱⴰⵏⵙⵍⵉⵎⴰⵏ بن سليمان",
+    "district": "Pachalik de Benslimane باشوية بن سليمان",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Benslimane ⴱⴰⵏⵙⵍⵉⵎⴰⵏ بن سليمان - Benslimane بن سليمان"
+  },
+  "33.625507_-7.508556": {
+    "zone_name": "Sidi Bernoussi ⵙⵉⴷⵉ ⵍⴱⵔⵏⵓⵚⵉ سيدي البرنوصي",
+    "district": "Pachalik de Casablanca باشوية الدار البيضاء",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Sidi Bernoussi ⵙⵉⴷⵉ ⵍⴱⵔⵏⵓⵚⵉ سيدي البرنوصي - Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء"
+  },
+  "33.645877_-7.428553": {
+    "zone_name": "Ain Harrouda عين حرودة",
+    "district": "Pachalik de Ain Harrouda",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Ain Harrouda عين حرودة - Ain Harrouda عين حرودة"
+  },
+  "33.640855_-7.434510": {
+    "zone_name": "Ain Harrouda عين حرودة",
+    "district": "Pachalik de Ain Harrouda",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Ain Harrouda عين حرودة - Ain Harrouda عين حرودة"
+  },
+  "33.635666_-7.448419": {
+    "zone_name": "Ain Harrouda عين حرودة",
+    "district": "Pachalik de Ain Harrouda",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Ain Harrouda عين حرودة - Ain Harrouda عين حرودة"
+  },
+  "33.663992_-7.409137": {
+    "zone_name": "Mohammédia المحمدية",
+    "district": "Pachalik de Mohammédia باشوية المحمدية",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Mohammédia المحمدية - Mohammédia المحمدية"
+  },
+  "33.667774_-7.432867": {
+    "zone_name": "Industries",
+    "district": "Pachalik de Mohammédia باشوية المحمدية",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Industries - Mohammédia المحمدية"
+  },
+  "33.687645_-7.333438": {
+    "zone_name": "Bni Yakhlef ⴱⵏⵉ ⵉⵅⵍⴼ بني يخلف",
+    "district": "Pachalik de Bni Yakhlef",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Bni Yakhlef ⴱⵏⵉ ⵉⵅⵍⴼ بني يخلف - Bni Yakhlef ⴱⵏⵉ ⵉⵅⵍⴼ بني يخلف"
+  },
+  "33.684864_-7.373037": {
+    "zone_name": "Massira Hassania",
+    "district": "Pachalik de Mohammédia باشوية المحمدية",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Massira Hassania - Mohammédia المحمدية"
+  },
+  "33.683333_-7.383333": {
+    "zone_name": "Massira Hassania",
+    "district": "Pachalik de Mohammédia باشوية المحمدية",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Massira Hassania - Mohammédia المحمدية"
+  },
+  "33.682071_-7.396407": {
+    "zone_name": "Mohammédia المحمدية",
+    "district": "Pachalik de Mohammédia باشوية المحمدية",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Mohammédia المحمدية - Mohammédia المحمدية"
+  },
+  "33.699084_-7.364043": {
+    "zone_name": "Facultés",
+    "district": "Pachalik de Mohammédia باشوية المحمدية",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Facultés - Mohammédia المحمدية"
+  },
+  "33.695668_-7.387676": {
+    "zone_name": "Centre",
+    "district": "Pachalik de Mohammédia باشوية المحمدية",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Centre - Mohammédia المحمدية"
+  },
+  "33.707858_-7.352610": {
+    "zone_name": "Facultés",
+    "district": "Pachalik de Mohammédia باشوية المحمدية",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Facultés - Mohammédia المحمدية"
+  },
+  "33.702852_-7.372212": {
+    "zone_name": "Mohammédia المحمدية",
+    "district": "Pachalik de Mohammédia باشوية المحمدية",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Mohammédia المحمدية - Mohammédia المحمدية"
+  },
+  "33.717352_-7.340459": {
+    "zone_name": "El Mansouria ⵎⵏⵚⵓⵕⵢⵢⴰ المنصورية",
+    "district": "Pachalik de El Mansouria",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "El Mansouria ⵎⵏⵚⵓⵕⵢⵢⴰ المنصورية - El Mansouria ⵎⵏⵚⵓⵕⵢⵢⴰ المنصورية"
+  },
+  "33.784067_-7.158172": {
+    "zone_name": "Bouznika",
+    "district": "Pachalik de Bouznika",
+    "region_name": "Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات",
+    "display_name": "Bouznika - Bouznika"
+  },
+  "33.850000_-7.030000": {
+    "zone_name": "Skhirate الصخيرات",
+    "district": "Pachalik de Skhirat",
+    "region_name": "Rabat-Salé-Kénitra ⵔⴱⴰⵟ-ⵙⵍⴰ-ⵇⵏⵉⵟⵔⴰ الرباط-سلا-القنيطرة",
+    "display_name": "Skhirate الصخيرات - Skhirate الصخيرات"
+  }
+}

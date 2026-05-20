@@ -1,0 +1,493 @@
+{
+  "n_zones": 142,
+  "n_features_for_clustering": 12,
+  "features_used": [
+    "entity_count_real",
+    "entity_count_total",
+    "density_log",
+    "active_rate",
+    "capital_median",
+    "capital_mean",
+    "capital_max",
+    "sector_diversity",
+    "formal_ratio",
+    "sarl_count",
+    "sa_count",
+    "n_sectors_present"
+  ],
+  "mode": "typology",
+  "selected_strategy": "balanced_typology",
+  "selection_details": {
+    "reason": "Selected by multi-objective optimization (separation + balanced cluster sizes).",
+    "selected_model": "spectral",
+    "selected_params": {
+      "k": 3,
+      "affinity": "nearest_neighbors",
+      "n_neighbors": 10
+    },
+    "selected_silhouette": 0.22884893185051905,
+    "selected_balance_score": 0.9628167350965777,
+    "valid_for_supervised": true
+  },
+  "kmeans": null,
+  "dbscan": null,
+  "typology_models": {
+    "search": [
+      {
+        "model": "kmeans",
+        "params": {
+          "k": 3
+        },
+        "n_clusters": 3,
+        "silhouette": 0.26561812579877125,
+        "balance_score": 0.6646188889036676,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.5,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.07521843104072978
+      },
+      {
+        "model": "kmeans",
+        "params": {
+          "k": 4
+        },
+        "n_clusters": 4,
+        "silhouette": 0.2960713989373407,
+        "balance_score": 0.6050296839651327,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.4859154929577465,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.06965471294845749
+      },
+      {
+        "model": "kmeans",
+        "params": {
+          "k": 5
+        },
+        "n_clusters": 5,
+        "silhouette": 0.3334463447855113,
+        "balance_score": 0.5998310449865222,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.47183098591549294,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.09000022486591563
+      },
+      {
+        "model": "kmeans",
+        "params": {
+          "k": 6
+        },
+        "n_clusters": 6,
+        "silhouette": 0.35319155033985533,
+        "balance_score": 0.5981623464886124,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.4647887323943662,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.1011798687993582
+      },
+      {
+        "model": "gmm",
+        "params": {
+          "k": 3,
+          "covariance_type": "full",
+          "bic": -1973.567319722709
+        },
+        "n_clusters": 3,
+        "silhouette": 0.2773211777530958,
+        "balance_score": 0.6995069942361432,
+        "min_cluster_size": 4,
+        "max_cluster_share": 0.6126760563380281,
+        "min_cluster_share": 0.028169014084507043,
+        "valid_for_supervised": false,
+        "selection_objective": 0.09619550434631474
+      },
+      {
+        "model": "gmm",
+        "params": {
+          "k": 3,
+          "covariance_type": "diag",
+          "bic": -1133.2058086571394
+        },
+        "n_clusters": 3,
+        "silhouette": 0.12961620120692965,
+        "balance_score": 0.9742304821146774,
+        "min_cluster_size": 33,
+        "max_cluster_share": 0.4225352112676056,
+        "min_cluster_share": 0.2323943661971831,
+        "valid_for_supervised": true,
+        "selection_objective": 0.46746191357002875
+      },
+      {
+        "model": "gmm",
+        "params": {
+          "k": 4,
+          "covariance_type": "full",
+          "bic": -2309.94760379378
+        },
+        "n_clusters": 4,
+        "silhouette": 0.27383472511745083,
+        "balance_score": 0.5893376515851872,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.5845070422535211,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.05003589570454542
+      },
+      {
+        "model": "gmm",
+        "params": {
+          "k": 4,
+          "covariance_type": "diag",
+          "bic": -1636.3543371912008
+        },
+        "n_clusters": 4,
+        "silhouette": 0.16015777441918624,
+        "balance_score": 0.7994037386691512,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.4014084507042254,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.06585616011917222
+      },
+      {
+        "model": "gmm",
+        "params": {
+          "k": 5,
+          "covariance_type": "full",
+          "bic": -2610.3820325707675
+        },
+        "n_clusters": 5,
+        "silhouette": 0.28562888658557917,
+        "balance_score": 0.5793750208574936,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.5492957746478874,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.05312734029434496
+      },
+      {
+        "model": "gmm",
+        "params": {
+          "k": 5,
+          "covariance_type": "diag",
+          "bic": -1931.3389732357805
+        },
+        "n_clusters": 5,
+        "silhouette": 0.2087277981717337,
+        "balance_score": 0.7436350175788256,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.4225352112676056,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.07269068593457051
+      },
+      {
+        "model": "gmm",
+        "params": {
+          "k": 6,
+          "covariance_type": "full",
+          "bic": -2700.640105093339
+        },
+        "n_clusters": 6,
+        "silhouette": 0.3352638574077132,
+        "balance_score": 0.5934171502368424,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.5140845070422535,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.08852517453936493
+      },
+      {
+        "model": "gmm",
+        "params": {
+          "k": 6,
+          "covariance_type": "diag",
+          "bic": -2544.0413980159155
+        },
+        "n_clusters": 6,
+        "silhouette": 0.22975276960647967,
+        "balance_score": 0.7405167822377646,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.3591549295774648,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.08405837465899368
+      },
+      {
+        "model": "agglomerative",
+        "params": {
+          "k": 3,
+          "linkage": "ward"
+        },
+        "n_clusters": 3,
+        "silhouette": 0.2305078265295098,
+        "balance_score": 0.6331555594178564,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.6267605633802817,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.04156691968484849
+      },
+      {
+        "model": "agglomerative",
+        "params": {
+          "k": 3,
+          "linkage": "average"
+        },
+        "n_clusters": 3,
+        "silhouette": 0.6223965020374457,
+        "balance_score": 0.07626460522487565,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.9859154929577465,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.05394374331241769
+      },
+      {
+        "model": "agglomerative",
+        "params": {
+          "k": 3,
+          "linkage": "complete"
+        },
+        "n_clusters": 3,
+        "silhouette": 0.5787483118354425,
+        "balance_score": 0.10544205504341285,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.9788732394366197,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.039425809118630695
+      },
+      {
+        "model": "agglomerative",
+        "params": {
+          "k": 4,
+          "linkage": "ward"
+        },
+        "n_clusters": 4,
+        "silhouette": 0.2348197665494744,
+        "balance_score": 0.5734000548527858,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.6267605633802817,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.02025188187079896
+      },
+      {
+        "model": "agglomerative",
+        "params": {
+          "k": 4,
+          "linkage": "average"
+        },
+        "n_clusters": 4,
+        "silhouette": 0.5612442504030006,
+        "balance_score": 0.15270825548870226,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.9577464788732394,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.04782985243728133
+      },
+      {
+        "model": "agglomerative",
+        "params": {
+          "k": 4,
+          "linkage": "complete"
+        },
+        "n_clusters": 4,
+        "silhouette": 0.48522175923769323,
+        "balance_score": 0.2529117966977203,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.9154929577464789,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.042297774221704054
+      },
+      {
+        "model": "agglomerative",
+        "params": {
+          "k": 5,
+          "linkage": "ward"
+        },
+        "n_clusters": 5,
+        "silhouette": 0.28241864166536107,
+        "balance_score": 0.5781425983130659,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.5915492957746479,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.050708224324442996
+      },
+      {
+        "model": "agglomerative",
+        "params": {
+          "k": 5,
+          "linkage": "average"
+        },
+        "n_clusters": 5,
+        "silhouette": 0.5171528751778333,
+        "balance_score": 0.15739100705966452,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.9507042253521126,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.0232481279305658
+      },
+      {
+        "model": "agglomerative",
+        "params": {
+          "k": 5,
+          "linkage": "complete"
+        },
+        "n_clusters": 5,
+        "silhouette": 0.47164823562947045,
+        "balance_score": 0.24350346442631798,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.9084507042253521,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.030390327148209495
+      },
+      {
+        "model": "agglomerative",
+        "params": {
+          "k": 6,
+          "linkage": "ward"
+        },
+        "n_clusters": 6,
+        "silhouette": 0.330395935093995,
+        "balance_score": 0.7344907471661786,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.38028169014084506,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.1420338599228685
+      },
+      {
+        "model": "agglomerative",
+        "params": {
+          "k": 6,
+          "linkage": "average"
+        },
+        "n_clusters": 6,
+        "silhouette": 0.4970332271978486,
+        "balance_score": 0.22542794339228459,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.9154929577464789,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.03839111367562298
+      },
+      {
+        "model": "agglomerative",
+        "params": {
+          "k": 6,
+          "linkage": "complete"
+        },
+        "n_clusters": 6,
+        "silhouette": 0.4206222390815303,
+        "balance_score": 0.24302565895098446,
+        "min_cluster_size": 1,
+        "max_cluster_share": 0.9084507042253521,
+        "min_cluster_share": 0.007042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": -0.0004163929706880176
+      },
+      {
+        "model": "spectral",
+        "params": {
+          "k": 3,
+          "affinity": "nearest_neighbors",
+          "n_neighbors": 10
+        },
+        "n_clusters": 3,
+        "silhouette": 0.22884893185051905,
+        "balance_score": 0.9628167350965777,
+        "min_cluster_size": 29,
+        "max_cluster_share": 0.4014084507042254,
+        "min_cluster_share": 0.20422535211267606,
+        "valid_for_supervised": true,
+        "selection_objective": 0.5224360531489425
+      },
+      {
+        "model": "spectral",
+        "params": {
+          "k": 4,
+          "affinity": "nearest_neighbors",
+          "n_neighbors": 10
+        },
+        "n_clusters": 4,
+        "silhouette": 0.18677877460821102,
+        "balance_score": 0.9308248743359072,
+        "min_cluster_size": 14,
+        "max_cluster_share": 0.39436619718309857,
+        "min_cluster_share": 0.09859154929577464,
+        "valid_for_supervised": true,
+        "selection_objective": 0.4843972144992895
+      },
+      {
+        "model": "spectral",
+        "params": {
+          "k": 5,
+          "affinity": "nearest_neighbors",
+          "n_neighbors": 10
+        },
+        "n_clusters": 5,
+        "silhouette": 0.14811393618254412,
+        "balance_score": 0.9699770548537359,
+        "min_cluster_size": 14,
+        "max_cluster_share": 0.2535211267605634,
+        "min_cluster_share": 0.09859154929577464,
+        "valid_for_supervised": true,
+        "selection_objective": 0.47685918365102087
+      },
+      {
+        "model": "spectral",
+        "params": {
+          "k": 6,
+          "affinity": "nearest_neighbors",
+          "n_neighbors": 10
+        },
+        "n_clusters": 6,
+        "silhouette": 0.1799840028756301,
+        "balance_score": 0.9473123940317691,
+        "min_cluster_size": 10,
+        "max_cluster_share": 0.24647887323943662,
+        "min_cluster_share": 0.07042253521126761,
+        "valid_for_supervised": false,
+        "selection_objective": 0.13691535933808574
+      }
+    ],
+    "best": {
+      "model": "spectral",
+      "params": {
+        "k": 3,
+        "affinity": "nearest_neighbors",
+        "n_neighbors": 10
+      },
+      "n_clusters": 3,
+      "silhouette": 0.22884893185051905,
+      "balance_score": 0.9628167350965777,
+      "min_cluster_size": 29,
+      "max_cluster_share": 0.4014084507042254,
+      "min_cluster_share": 0.20422535211267606,
+      "valid_for_supervised": true,
+      "selection_objective": 0.5224360531489425
+    }
+  },
+  "cluster_counts": {
+    "0": 29,
+    "1": 56,
+    "2": 57
+  },
+  "notes": [
+    "attractivity_score is excluded from clustering features.",
+    "attractivity_score remains in output only for post-hoc validation.",
+    "Clustering selection enforces min cluster size >= 3 for supervised readiness when possible.",
+    "Use mode='typology' for balanced economic profiles and mode='anomaly' for atypical pocket detection."
+  ]
+}

@@ -1,0 +1,160 @@
+y_true,y_pred
+Finance,Finance
+Transport,Real Estate
+Commerce,Agriculture
+Other,Other
+Construction,Construction
+Agriculture,Manufacturing
+Construction,Commerce
+Commerce,Commerce
+Commerce,Commerce
+Construction,Commerce
+Finance,Finance
+Construction,Information Technology
+Other,Other
+Transport,Commerce
+Construction,Other
+Healthcare,Healthcare
+Construction,Construction
+Finance,Transport
+Commerce,Construction
+Information Technology,Professional Services
+Information Technology,Construction
+Healthcare,Healthcare
+Construction,Manufacturing
+Information Technology,Manufacturing
+Manufacturing,Other
+Healthcare,Education
+Healthcare,Healthcare
+Professional Services,Information Technology
+Professional Services,Construction
+Other,Transport
+Real Estate,Professional Services
+Information Technology,Other
+Information Technology,Commerce
+Transport,Other
+Commerce,Real Estate
+Construction,Professional Services
+Construction,Other
+Information Technology,Transport
+Healthcare,Healthcare
+Information Technology,Construction
+Transport,Tourism & Hospitality
+Finance,Finance
+Professional Services,Commerce
+Other,Transport
+Tourism & Hospitality,Commerce
+Real Estate,Construction
+Commerce,Manufacturing
+Commerce,Other
+Other,Information Technology
+Tourism & Hospitality,Transport
+Real Estate,Professional Services
+Manufacturing,Other
+Professional Services,Real Estate
+Commerce,Construction
+Construction,Construction
+Manufacturing,Agriculture
+Information Technology,Commerce
+Manufacturing,Commerce
+Commerce,Information Technology
+Professional Services,Professional Services
+Healthcare,Healthcare
+Healthcare,Healthcare
+Information Technology,Real Estate
+Finance,Finance
+Transport,Professional Services
+Transport,Tourism & Hospitality
+Transport,Other
+Real Estate,Commerce
+Finance,Finance
+Transport,Commerce
+Education,Education
+Information Technology,Construction
+Professional Services,Transport
+Manufacturing,Manufacturing
+Manufacturing,Information Technology
+Healthcare,Healthcare
+Other,Other
+Real Estate,Professional Services
+Professional Services,Professional Services
+Professional Services,Professional Services
+Finance,Professional Services
+Healthcare,Healthcare
+Commerce,Other
+Information Technology,Construction
+Other,Education
+Manufacturing,Commerce
+Transport,Construction
+Finance,Finance
+Other,Construction
+Finance,Finance
+Manufacturing,Other
+Healthcare,Healthcare
+Construction,Commerce
+Education,Healthcare
+Tourism & Hospitality,Real Estate
+Transport,Professional Services
+Commerce,Tourism & Hospitality
+Real Estate,Information Technology
+Other,Manufacturing
+Construction,Transport
+Construction,Information Technology
+Other,Other
+Manufacturing,Construction
+Professional Services,Other
+Healthcare,Healthcare
+Construction,Manufacturing
+Transport,Information Technology
+Construction,Commerce
+Real Estate,Professional Services
+Commerce,Construction
+Transport,Commerce
+Tourism & Hospitality,Information Technology
+Manufacturing,Manufacturing
+Commerce,Commerce
+Other,Tourism & Hospitality
+Commerce,Information Technology
+Construction,Construction
+Professional Services,Other
+Information Technology,Real Estate
+Finance,Finance
+Manufacturing,Manufacturing
+Construction,Other
+Construction,Construction
+Construction,Commerce
+Commerce,Commerce
+Manufacturing,Commerce
+Construction,Commerce
+Healthcare,Healthcare
+Other,Professional Services
+Tourism & Hospitality,Finance
+Commerce,Professional Services
+Other,Construction
+Other,Other
+Information Technology,Commerce
+Transport,Construction
+Information Technology,Other
+Other,Other
+Real Estate,Transport
+Commerce,Manufacturing
+Other,Transport
+Information Technology,Transport
+Commerce,Construction
+Real Estate,Real Estate
+Information Technology,Manufacturing
+Transport,Construction
+Tourism & Hospitality,Information Technology
+Commerce,Construction
+Commerce,Transport
+Construction,Other
+Education,Healthcare
+Construction,Commerce
+Other,Education
+Healthcare,Healthcare
+Tourism & Hospitality,Finance
+Commerce,Information Technology
+Manufacturing,Other
+Construction,Commerce
+Other,Transport
+Information Technology,Professional Services

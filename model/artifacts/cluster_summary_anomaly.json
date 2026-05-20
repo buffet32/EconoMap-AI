@@ -1,0 +1,242 @@
+{
+  "title": "Economic zone cluster analysis",
+  "mode": "anomaly",
+  "methodology": {
+    "target_usage": "No supervised target used in clustering.",
+    "attractivity_score_usage": "Descriptive post-analysis validation only."
+  },
+  "n_clusters_detected": 4,
+  "clusters": [
+    {
+      "cluster_label": -1,
+      "profile_name": "Structured formal business zones",
+      "n_zones": 6,
+      "mean_features": {
+        "entity_count_real": 1699.8333333333333,
+        "entity_count_total": 2427.3333333333335,
+        "density_log": 3.9377445108337272,
+        "active_rate": 0.8304598812765399,
+        "capital_median": 416666.6666666667,
+        "capital_mean": 60189567.21061436,
+        "capital_max": 13318440720.666666,
+        "sector_diversity": 0.8816571713314415,
+        "formal_ratio": 0.31753280681262064,
+        "sarl_count": 174.5,
+        "sa_count": 94.33333333333333,
+        "n_sectors_present": 4.666666666666667
+      },
+      "dominant_sectors": [
+        {
+          "name": "Information Technology",
+          "count": 3,
+          "share": 0.10714285714285714
+        },
+        {
+          "name": "Commerce",
+          "count": 3,
+          "share": 0.10714285714285714
+        },
+        {
+          "name": "Finance",
+          "count": 3,
+          "share": 0.10714285714285714
+        },
+        {
+          "name": "Transport",
+          "count": 2,
+          "share": 0.07142857142857142
+        }
+      ],
+      "city_distribution": [
+        {
+          "name": "Casablanca",
+          "count": 6,
+          "share": 1.0
+        }
+      ],
+      "attractivity_score_validation": {
+        "mean": 60.543133903133906,
+        "std": 9.653764342839853,
+        "min": 42.945,
+        "max": 74.71769230769232
+      }
+    },
+    {
+      "cluster_label": 0,
+      "profile_name": "Intermediate mixed economic zones",
+      "n_zones": 127,
+      "mean_features": {
+        "entity_count_real": 150.36220472440945,
+        "entity_count_total": 150.36220472440945,
+        "density_log": 3.7986157267479204,
+        "active_rate": 0.8275051755397044,
+        "capital_median": 100355.11811023622,
+        "capital_mean": 719120.2593106925,
+        "capital_max": 145500472.0472441,
+        "sector_diversity": 0.8357441117057606,
+        "formal_ratio": 0.14448783172776167,
+        "sarl_count": 23.53543307086614,
+        "sa_count": 6.228346456692913,
+        "n_sectors_present": 5.6141732283464565
+      },
+      "dominant_sectors": [
+        {
+          "name": "Construction",
+          "count": 105,
+          "share": 0.14726507713884993
+        },
+        {
+          "name": "Commerce",
+          "count": 97,
+          "share": 0.13604488078541374
+        },
+        {
+          "name": "Other",
+          "count": 82,
+          "share": 0.1150070126227209
+        },
+        {
+          "name": "Information Technology",
+          "count": 75,
+          "share": 0.10518934081346423
+        }
+      ],
+      "city_distribution": [
+        {
+          "name": "Casablanca",
+          "count": 114,
+          "share": 0.8976377952755905
+        },
+        {
+          "name": "Settat",
+          "count": 4,
+          "share": 0.031496062992125984
+        },
+        {
+          "name": "Mohammedia",
+          "count": 4,
+          "share": 0.031496062992125984
+        },
+        {
+          "name": "El Jadida",
+          "count": 3,
+          "share": 0.023622047244094488
+        }
+      ],
+      "attractivity_score_validation": {
+        "mean": 52.41914256893587,
+        "std": 11.681149872278688,
+        "min": 20.856666666666666,
+        "max": 76.95076923076923
+      }
+    },
+    {
+      "cluster_label": 1,
+      "profile_name": "Emerging low-capital zones",
+      "n_zones": 5,
+      "mean_features": {
+        "entity_count_real": 3.2,
+        "entity_count_total": 3.2,
+        "density_log": 1.4309230713827326,
+        "active_rate": 1.0,
+        "capital_median": 68000.0,
+        "capital_mean": 160666.66666666666,
+        "capital_max": 360000.0,
+        "sector_diversity": 0.0,
+        "formal_ratio": 0.0,
+        "sarl_count": 0.0,
+        "sa_count": 0.0,
+        "n_sectors_present": 1.0
+      },
+      "dominant_sectors": [
+        {
+          "name": "Construction",
+          "count": 3,
+          "share": 0.6
+        },
+        {
+          "name": "Commerce",
+          "count": 1,
+          "share": 0.2
+        },
+        {
+          "name": "Information Technology",
+          "count": 1,
+          "share": 0.2
+        }
+      ],
+      "city_distribution": [
+        {
+          "name": "Casablanca",
+          "count": 4,
+          "share": 0.8
+        },
+        {
+          "name": "Settat",
+          "count": 1,
+          "share": 0.2
+        }
+      ],
+      "attractivity_score_validation": {
+        "mean": 37.275999999999996,
+        "std": 0.8333450665840642,
+        "min": 36.67,
+        "max": 38.93
+      }
+    },
+    {
+      "cluster_label": 2,
+      "profile_name": "High-density capital hubs",
+      "n_zones": 4,
+      "mean_features": {
+        "entity_count_real": 500.25,
+        "entity_count_total": 500.25,
+        "density_log": 6.157713512902668,
+        "active_rate": 0.8869864361581276,
+        "capital_median": 100000.0,
+        "capital_mean": 119848024.58857417,
+        "capital_max": 79869911040.0,
+        "sector_diversity": 0.8399929104481303,
+        "formal_ratio": 0.22436404098543639,
+        "sarl_count": 107.75,
+        "sa_count": 33.25,
+        "n_sectors_present": 11.5
+      },
+      "dominant_sectors": [
+        {
+          "name": "Commerce",
+          "count": 4,
+          "share": 0.08695652173913043
+        },
+        {
+          "name": "Construction",
+          "count": 4,
+          "share": 0.08695652173913043
+        },
+        {
+          "name": "Finance",
+          "count": 4,
+          "share": 0.08695652173913043
+        },
+        {
+          "name": "Healthcare",
+          "count": 4,
+          "share": 0.08695652173913043
+        }
+      ],
+      "city_distribution": [
+        {
+          "name": "Casablanca",
+          "count": 4,
+          "share": 1.0
+        }
+      ],
+      "attractivity_score_validation": {
+        "mean": 66.68914627039626,
+        "std": 3.278950006064999,
+        "min": 62.665,
+        "max": 70.98461538461538
+      }
+    }
+  ]
+}

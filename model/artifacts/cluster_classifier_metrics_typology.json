@@ -1,0 +1,78 @@
+{
+  "task": "Predict economic cluster membership",
+  "mode": "typology",
+  "selected_model": "RandomForest",
+  "cv_f1_macro_by_model": {
+    "RandomForest": 0.9586710239651417,
+    "XGBoost": 0.8960908510134515,
+    "LightGBM": 0.8859979196356905
+  },
+  "cv_f1_macro_selected": 0.9586710239651417,
+  "test_accuracy": 0.9655172413793104,
+  "test_f1_macro": 0.9552042160737813,
+  "classification_report": {
+    "0": {
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.9090909090909091,
+      "support": 6.0
+    },
+    "1": {
+      "precision": 0.9166666666666666,
+      "recall": 1.0,
+      "f1-score": 0.9565217391304348,
+      "support": 11.0
+    },
+    "2": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 12.0
+    },
+    "accuracy": 0.9655172413793104,
+    "macro avg": {
+      "precision": 0.9722222222222222,
+      "recall": 0.9444444444444445,
+      "f1-score": 0.9552042160737813,
+      "support": 29.0
+    },
+    "weighted avg": {
+      "precision": 0.9683908045977011,
+      "recall": 0.9655172413793104,
+      "f1-score": 0.9646994684475945,
+      "support": 29.0
+    }
+  },
+  "features_numeric": [
+    "entity_count_real",
+    "entity_count_total",
+    "density_log",
+    "active_rate",
+    "capital_median",
+    "capital_mean",
+    "capital_max",
+    "sector_diversity",
+    "formal_ratio",
+    "sarl_count",
+    "sa_count",
+    "n_sectors_present",
+    "cell_lat",
+    "cell_lon"
+  ],
+  "features_categorical": [
+    "city"
+  ],
+  "leakage_controls": [
+    "attractivity_score excluded from classifier features",
+    "attractivity_class excluded from classifier features",
+    "cluster_label used as target only"
+  ],
+  "dropped_rare_clusters": [],
+  "shap_explainability": {
+    "status": "computed",
+    "n_samples": 113,
+    "n_features": 19,
+    "importance_path": "C:\\Users\\DELL Tac\\Desktop\\economic-attractivity-prediction-ml\\artifacts\\cluster_classifier_shap_importance_typology.csv",
+    "values_path": "C:\\Users\\DELL Tac\\Desktop\\economic-attractivity-prediction-ml\\artifacts\\cluster_classifier_shap_values_typology.csv"
+  }
+}

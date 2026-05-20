@@ -1,0 +1,160 @@
+y_true,y_pred,correct
+Finance,Finance,1
+Transport,Real Estate,0
+Commerce,Agriculture,0
+Other,Other,1
+Construction,Construction,1
+Agriculture,Manufacturing,0
+Construction,Commerce,0
+Commerce,Commerce,1
+Commerce,Commerce,1
+Construction,Commerce,0
+Finance,Finance,1
+Construction,Information Technology,0
+Other,Other,1
+Transport,Commerce,0
+Construction,Other,0
+Healthcare,Healthcare,1
+Construction,Construction,1
+Finance,Transport,0
+Commerce,Construction,0
+Information Technology,Professional Services,0
+Information Technology,Construction,0
+Healthcare,Healthcare,1
+Construction,Manufacturing,0
+Information Technology,Manufacturing,0
+Manufacturing,Other,0
+Healthcare,Education,0
+Healthcare,Healthcare,1
+Professional Services,Information Technology,0
+Professional Services,Construction,0
+Other,Transport,0
+Real Estate,Professional Services,0
+Information Technology,Other,0
+Information Technology,Commerce,0
+Transport,Other,0
+Commerce,Real Estate,0
+Construction,Professional Services,0
+Construction,Other,0
+Information Technology,Transport,0
+Healthcare,Healthcare,1
+Information Technology,Construction,0
+Transport,Tourism & Hospitality,0
+Finance,Finance,1
+Professional Services,Commerce,0
+Other,Transport,0
+Tourism & Hospitality,Commerce,0
+Real Estate,Construction,0
+Commerce,Manufacturing,0
+Commerce,Other,0
+Other,Information Technology,0
+Tourism & Hospitality,Transport,0
+Real Estate,Professional Services,0
+Manufacturing,Other,0
+Professional Services,Real Estate,0
+Commerce,Construction,0
+Construction,Construction,1
+Manufacturing,Agriculture,0
+Information Technology,Commerce,0
+Manufacturing,Commerce,0
+Commerce,Information Technology,0
+Professional Services,Professional Services,1
+Healthcare,Healthcare,1
+Healthcare,Healthcare,1
+Information Technology,Real Estate,0
+Finance,Finance,1
+Transport,Professional Services,0
+Transport,Tourism & Hospitality,0
+Transport,Other,0
+Real Estate,Commerce,0
+Finance,Finance,1
+Transport,Commerce,0
+Education,Education,1
+Information Technology,Construction,0
+Professional Services,Transport,0
+Manufacturing,Manufacturing,1
+Manufacturing,Information Technology,0
+Healthcare,Healthcare,1
+Other,Other,1
+Real Estate,Professional Services,0
+Professional Services,Professional Services,1
+Professional Services,Professional Services,1
+Finance,Professional Services,0
+Healthcare,Healthcare,1
+Commerce,Other,0
+Information Technology,Construction,0
+Other,Education,0
+Manufacturing,Commerce,0
+Transport,Construction,0
+Finance,Finance,1
+Other,Construction,0
+Finance,Finance,1
+Manufacturing,Other,0
+Healthcare,Healthcare,1
+Construction,Commerce,0
+Education,Healthcare,0
+Tourism & Hospitality,Real Estate,0
+Transport,Professional Services,0
+Commerce,Tourism & Hospitality,0
+Real Estate,Information Technology,0
+Other,Manufacturing,0
+Construction,Transport,0
+Construction,Information Technology,0
+Other,Other,1
+Manufacturing,Construction,0
+Professional Services,Other,0
+Healthcare,Healthcare,1
+Construction,Manufacturing,0
+Transport,Information Technology,0
+Construction,Commerce,0
+Real Estate,Professional Services,0
+Commerce,Construction,0
+Transport,Commerce,0
+Tourism & Hospitality,Information Technology,0
+Manufacturing,Manufacturing,1
+Commerce,Commerce,1
+Other,Tourism & Hospitality,0
+Commerce,Information Technology,0
+Construction,Construction,1
+Professional Services,Other,0
+Information Technology,Real Estate,0
+Finance,Finance,1
+Manufacturing,Manufacturing,1
+Construction,Other,0
+Construction,Construction,1
+Construction,Commerce,0
+Commerce,Commerce,1
+Manufacturing,Commerce,0
+Construction,Commerce,0
+Healthcare,Healthcare,1
+Other,Professional Services,0
+Tourism & Hospitality,Finance,0
+Commerce,Professional Services,0
+Other,Construction,0
+Other,Other,1
+Information Technology,Commerce,0
+Transport,Construction,0
+Information Technology,Other,0
+Other,Other,1
+Real Estate,Transport,0
+Commerce,Manufacturing,0
+Other,Transport,0
+Information Technology,Transport,0
+Commerce,Construction,0
+Real Estate,Real Estate,1
+Information Technology,Manufacturing,0
+Transport,Construction,0
+Tourism & Hospitality,Information Technology,0
+Commerce,Construction,0
+Commerce,Transport,0
+Construction,Other,0
+Education,Healthcare,0
+Construction,Commerce,0
+Other,Education,0
+Healthcare,Healthcare,1
+Tourism & Hospitality,Finance,0
+Commerce,Information Technology,0
+Manufacturing,Other,0
+Construction,Commerce,0
+Other,Transport,0
+Information Technology,Professional Services,0
